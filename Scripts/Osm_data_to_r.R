@@ -52,78 +52,86 @@ colors_osm <-
 
 
 # MAKE A FUNCTION FOR THIS !!! 
-if(FALSE) {
-  # Code to automaticaly load OSM data from OSM database
-  
-  osmdata_sf_wrapper <- function(bbox, file_path, values, key = NULL) {
-    if(is.null(key)) {
-      output.q <- opq(bbox = bbox) %>%
-        add_osm_features(features = values)    
-    } else {
-      output.q <- opq(bbox = bbox) %>%
-        add_osm_feature(key = key, value = values) 
-    }
-    # output.sf <- osmdata_sf(q = output.q, doc = file_path)
-    output.sf <- osmdata_sf(q = output.q)
-    return(output.sf)
+
+# Code to automaticaly load OSM data from OSM database
+osm_data_dir <- file.path("Data", "Map_Data")
+
+
+osmdata_sf_wrapper <- function(bbox, file_path, values, key = NULL) {
+  if(is.null(key)) {
+    output.q <- opq(bbox = bbox) %>%
+      add_osm_features(features = values)    
+  } else {
+    output.q <- opq(bbox = bbox) %>%
+      add_osm_feature(key = key, value = values) 
   }
-  
-  # DO THIS
-  lake_mendota.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                        file_path = osm_data_file_path,
-                                        key = "name",
-                                        values = "Lake Mendota")
-  uw_major_roads.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                          file_path = osm_data_file_path,
-                                          key = "highway",
-                                          values = c("motorway", "primary", "secondary"))
-  uw_minor_roads.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                          file_path = osm_data_file_path,
-                                          key = "highway",
-                                          values = c("tertiary", "residential"))
-  uw_railways.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                       file_path = osm_data_file_path,
-                                       key = "railway", 
-                                       values = "rail")
-  uw_cyclepaths.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                         file_path = osm_data_file_path,
-                                         key = "highway", 
-                                         values = "cycleway")
-  uw_buildings.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
-                                        file_path = osm_data_file_path,
-                                        values = c(sprintf("\"operator\" = \"%s\"", university),
-                                                   "\"building\" = \"university\"", 
-                                                   "\"name\" = \"University Club\"",
-                                                   "\"name\" = \"American Family Children's Hospital\""))
-  
-  lake_mendota_for_plot.sf <- 
-    dplyr::bind_rows(
-      lake_mendota.sf$osm_polygons %>% 
-        select(name, geometry),
-      lake_mendota.sf$osm_multipolygons %>% 
-        select(name, geometry)
-    ) 
-  
-  uw_buildings_for_plot.sf <- 
-    dplyr::bind_rows(
-      uw_buildings.sf$osm_polygons %>% 
-        select(name, geometry, amenity, building),
-      uw_buildings.sf$osm_multipolygons %>% 
-        select(name, geometry, amenity, building)
-    ) %>% 
-    filter(!(name %in% c("Lakeshore Nature Preserve"))) %>% 
-    mutate(amenity = ifelse(is.na(amenity), "none", amenity)) %>% 
-    filter(amenity != "parking" & !is.na(building))
-} else {
-  lake_mendota_for_plot.sf <- readRDS(file = file.path("Data", "Map_Data", "lake_mendota_for_plot_sf.RDATA"))
-  uw_buildings_for_plot.sf <- readRDS(file = file.path("Data", "Map_Data", "uw_buildings_for_plot_sf.RDATA"))
-  uw_major_roads.sf <- readRDS(file = file.path("Data", "Map_Data", "uw_major_roads_sf.RDATA"))
-  uw_minor_roads.sf <- readRDS(file = file.path("Data", "Map_Data", "uw_minor_roads_sf.RDATA"))
-  uw_railways.sf <- readRDS(file = file.path("Data", "Map_Data", "uw_railways_sf.RDATA"))
-  uw_cyclepaths.sf <- readRDS(file = file.path("Data", "Map_Data", "uw_cyclepaths_sf.RDATA"))
+  if (file.exists(file_path)) {
+    print(sprintf("Extracting map data from local file : %s", file_path))
+    output.sf <- osmdata_sf(q = output.q, doc = file_path)
+  } else {
+    print("Extracting map data from online OSM database")
+    output.sf <- osmdata_sf(q = output.q)
+    output.q %>% 
+      osmdata_xml(file = file_path)
+  }
+  return(output.sf)
 }
 
+# DO THIS
+print("loading data for Lake Mendota (Request 1/6)")
+lake_mendota.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                      file_path = file.path(osm_data_dir, 'lake_mendota.osm'),
+                                      key = "name",
+                                      values = "Lake Mendota")
+print("loading data for Major Roads (Request 2/6)")
+uw_major_roads.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                        file_path = file.path(osm_data_dir, 'uw_major_roads.osm'),
+                                        key = "highway",
+                                        values = c("motorway", "primary", "secondary"))
+print("loading data for Minor Roads (Request 3/6)")
+uw_minor_roads.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                        file_path = file.path(osm_data_dir, 'uw_minor_roads.osm'),
+                                        key = "highway",
+                                        values = c("tertiary", "residential"))
+print("loading data for Railways (Request 4/6)")
+uw_railways.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                     file_path = file.path(osm_data_dir, 'uw_railways.osm'),
+                                     key = "railway", 
+                                     values = "rail")
+print("loading data for Cycle Paths (Request 5/6)")
+uw_cyclepaths.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                       file_path = file.path(osm_data_dir, 'uw_cyclepaths.osm'),
+                                       key = "highway", 
+                                       values = "cycleway")
+print("loading data for Buildings (Request 6/6)")
+uw_buildings.sf <- osmdata_sf_wrapper(bbox = uwm_bb, 
+                                      file_path = file.path(osm_data_dir, 'uw_buildings.osm'),
+                                      values = c(sprintf("\"operator\" = \"%s\"", university),
+                                                 "\"building\" = \"university\"", 
+                                                 "\"name\" = \"University Club\"",
+                                                 "\"name\" = \"American Family Children's Hospital\""))
+
+lake_mendota_for_plot.sf <- 
+  dplyr::bind_rows(
+    lake_mendota.sf$osm_polygons %>% 
+      select(name, geometry),
+    lake_mendota.sf$osm_multipolygons %>% 
+      select(name, geometry)
+  ) 
+
+uw_buildings_for_plot.sf <- 
+  dplyr::bind_rows(
+    uw_buildings.sf$osm_polygons %>% 
+      select(name, geometry, amenity, building),
+    uw_buildings.sf$osm_multipolygons %>% 
+      select(name, geometry, amenity, building)
+  ) %>% 
+  filter(!(name %in% c("Lakeshore Nature Preserve"))) %>% 
+  mutate(amenity = ifelse(is.na(amenity), "none", amenity)) %>% 
+  filter(amenity != "parking" & !is.na(building))
+
 # Load post-doc data
+print("Get Number of Post-Docs")
 n_postdocs.df <- read.csv(file.path(here(), 'Data', 'Post-Doc_Counts', 'Buildings_AllPostdocFeb10_2025.csv')) %>% 
   rename(n_postdocs = count) %>% 
   group_by(name_osm) %>% 
@@ -138,17 +146,21 @@ uw_buildings_for_plot.sf <-
 
 
 # Create the plot object, using the osm_lines element of tucson_major
+print("Plot Buildings")
 uwmadison.plot <- ggplot() +
   geom_sf(data = uw_buildings_for_plot.sf,
-          mapping = aes(fill = n_postdocs),
+          mapping = aes(fill = n_postdocs, 
+                        geometry = geometry),
           inherit.aes = FALSE,
           color = "black",
           size = 0.2) + 
   geom_sf_text(data = uw_buildings_for_plot.sf,
-               aes(label = as.character(n_postdocs)), 
+               aes(label = as.character(n_postdocs), 
+                   geometry = geometry), 
                size = 2, 
                check_overlap = TRUE)
 
+print("Plot Roads")
 uwmadison_with_roads.plot <- uwmadison.plot + 
   geom_sf(data = uw_major_roads.sf$osm_lines,
           inherit.aes = FALSE,
@@ -168,6 +180,7 @@ uwmadison_with_roads.plot <- uwmadison.plot +
           linetype = "dashed",
           linewidth = 0.5)
 
+print("Plot Lake")
 uwmadison_with_lake.plot <- uwmadison_with_roads.plot +
   geom_sf(data = lake_mendota_for_plot.sf,
           inherit.aes = FALSE,

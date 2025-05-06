@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.8 b1080abd">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2025-05-06T17:07:05Z"/>
+  <node id="53450839" lat="43.0644000" lon="-89.3898450"/>
+  <node id="53450840" lat="43.0654800" lon="-89.3908100"/>
+  <node id="53450842" lat="43.0657360" lon="-89.3910270"/>
+  <node id="53450845" lat="43.0661330" lon="-89.3913760"/>
+  <node id="53450847" lat="43.0664859" lon="-89.3917491"/>
+  <node id="53450848" lat="43.0667384" lon="-89.3920488"/>
+  <node id="53450850" lat="43.0669782" lon="-89.3924033">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="53450853" lat="43.0670480" lon="-89.3925066">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450855" lat="43.0671155" lon="-89.3926104">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450857" lat="43.0672972" lon="-89.3929666"/>
+  <node id="53450858" lat="43.0674836" lon="-89.3933675"/>
+  <node id="53450861" lat="43.0675869" lon="-89.3936282"/>
+  <node id="53450862" lat="43.0677138" lon="-89.3939442">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="crossing:light" v="yes"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450863" lat="43.0678155" lon="-89.3942250">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450866" lat="43.0680280" lon="-89.3949087"/>
+  <node id="53450868" lat="43.0681930" lon="-89.3954376">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="53450881" lat="43.0709485" lon="-89.4040848">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450883" lat="43.0710118" lon="-89.4042796">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450885" lat="43.0715042" lon="-89.4057230">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450886" lat="43.0718339" lon="-89.4066918"/>
+  <node id="53450889" lat="43.0721152" lon="-89.4075192">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450891" lat="43.0725996" lon="-89.4089487">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53450893" lat="43.0732226" lon="-89.4107830">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450894" lat="43.0733511" lon="-89.4111605">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450896" lat="43.0736317" lon="-89.4119303"/>
+  <node id="53450898" lat="43.0740512" lon="-89.4130169"/>
+  <node id="53450900" lat="43.0741692" lon="-89.4133599"/>
+  <node id="53450901" lat="43.0742962" lon="-89.4138664"/>
+  <node id="53450903" lat="43.0743467" lon="-89.4141667"/>
+  <node id="53450904" lat="43.0743937" lon="-89.4147161"/>
+  <node id="53450907" lat="43.0743786" lon="-89.4157162"/>
+  <node id="53450908" lat="43.0743282" lon="-89.4173605"/>
+  <node id="53450910" lat="43.0743087" lon="-89.4179082"/>
+  <node id="53450912" lat="43.0741802" lon="-89.4196598"/>
+  <node id="53450914" lat="43.0741112" lon="-89.4204447"/>
+  <node id="53450916" lat="43.0740516" lon="-89.4209841"/>
+  <node id="53450918" lat="43.0739777" lon="-89.4215241"/>
+  <node id="53450921" lat="43.0736800" lon="-89.4235007"/>
+  <node id="53450925" lat="43.0733985" lon="-89.4265603"/>
+  <node id="53450927" lat="43.0733169" lon="-89.4276149"/>
+  <node id="53450955" lat="43.0750803" lon="-89.4390417"/>
+  <node id="53450957" lat="43.0752831" lon="-89.4399037"/>
+  <node id="53450959" lat="43.0757511" lon="-89.4419059"/>
+  <node id="53450962" lat="43.0765031" lon="-89.4451362"/>
+  <node id="53450966" lat="43.0767362" lon="-89.4462790"/>
+  <node id="53450969" lat="43.0769044" lon="-89.4473028"/>
+  <node id="53450971" lat="43.0770128" lon="-89.4481396"/>
+  <node id="53450974" lat="43.0771494" lon="-89.4496709"/>
+  <node id="53450976" lat="43.0771704" lon="-89.4500430"/>
+  <node id="53450977" lat="43.0771926" lon="-89.4506160"/>
+  <node id="53450978" lat="43.0772039" lon="-89.4510892"/>
+  <node id="53450983" lat="43.0771930" lon="-89.4523470"/>
+  <node id="53450984" lat="43.0771603" lon="-89.4531487">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53450990" lat="43.0771311" lon="-89.4536175"/>
+  <node id="53450991" lat="43.0770600" lon="-89.4544482"/>
+  <node id="53450994" lat="43.0770258" lon="-89.4547593"/>
+  <node id="53450996" lat="43.0769383" lon="-89.4554543"/>
+  <node id="53450998" lat="43.0768667" lon="-89.4559294"/>
+  <node id="53450999" lat="43.0767993" lon="-89.4563884"/>
+  <node id="53451001" lat="43.0767327" lon="-89.4567499"/>
+  <node id="53451003" lat="43.0766530" lon="-89.4571846"/>
+  <node id="53451007" lat="43.0762748" lon="-89.4588602"/>
+  <node id="53451009" lat="43.0756935" lon="-89.4613545"/>
+  <node id="53451016" lat="43.0749334" lon="-89.4646337"/>
+  <node id="53451018" lat="43.0744000" lon="-89.4669656"/>
+  <node id="53451022" lat="43.0742716" lon="-89.4676880">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="53451024" lat="43.0742403" lon="-89.4679361"/>
+  <node id="53451026" lat="43.0742060" lon="-89.4682577"/>
+  <node id="53451028" lat="43.0741846" lon="-89.4685365"/>
+  <node id="53451030" lat="43.0741690" lon="-89.4687977"/>
+  <node id="53451032" lat="43.0741562" lon="-89.4692894"/>
+  <node id="53451034" lat="43.0741585" lon="-89.4695911"/>
+  <node id="53451035" lat="43.0741672" lon="-89.4699386"/>
+  <node id="53451036" lat="43.0742188" lon="-89.4706210"/>
+  <node id="53451039" lat="43.0742604" lon="-89.4710472"/>
+  <node id="53458763" lat="43.0770789" lon="-89.4487611">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53596810" lat="43.0733046" lon="-89.4110186">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53643614" lat="43.0735262" lon="-89.4250084"/>
+  <node id="53653938" lat="43.0743050" lon="-89.4674802"/>
+  <node id="53692990" lat="43.0750018" lon="-89.4387012">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53693670" lat="43.0761868" lon="-89.4437538">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53697052" lat="43.0766719" lon="-89.4459335">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53703307" lat="43.0738424" lon="-89.4337403">
+    <tag k="crossing:barrier" v="double_half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="314505834" lat="43.0734839" lon="-89.4115402">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="362555925" lat="43.0642672" lon="-89.3897247">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="496896086" lat="43.0755344" lon="-89.4620440"/>
+  <node id="496896087" lat="43.0754311" lon="-89.4624916"/>
+  <node id="496896088" lat="43.0752975" lon="-89.4630621"/>
+  <node id="496896182" lat="43.0732949" lon="-89.4283572"/>
+  <node id="496896184" lat="43.0732688" lon="-89.4292444"/>
+  <node id="496896185" lat="43.0732537" lon="-89.4297585"/>
+  <node id="496896187" lat="43.0732595" lon="-89.4300979"/>
+  <node id="496896188" lat="43.0732691" lon="-89.4303592"/>
+  <node id="496896189" lat="43.0732976" lon="-89.4308071"/>
+  <node id="496896190" lat="43.0733179" lon="-89.4310138"/>
+  <node id="496896191" lat="43.0733665" lon="-89.4314423"/>
+  <node id="496896192" lat="43.0734214" lon="-89.4318254"/>
+  <node id="496896193" lat="43.0735492" lon="-89.4324902"/>
+  <node id="664966691" lat="43.0697968" lon="-89.4006772"/>
+  <node id="664966692" lat="43.0699353" lon="-89.4011126"/>
+  <node id="1004883943" lat="43.0743185" lon="-89.4673943">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1178748008" lat="43.0742876" lon="-89.4675908">
+    <tag k="crossing:barrier" v="double_half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1179485793" lat="43.0703871" lon="-89.4021542"/>
+  <node id="1179485798" lat="43.0702226" lon="-89.4016112"/>
+  <node id="1179485800" lat="43.0706644" lon="-89.4032110"/>
+  <node id="1179485815" lat="43.0706241" lon="-89.4030556"/>
+  <node id="1179485817" lat="43.0706020" lon="-89.4029558">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1179485818" lat="43.0701118" lon="-89.4012227">
+    <tag k="railway" v="buffer_stop"/>
+  </node>
+  <node id="1179485822" lat="43.0700509" lon="-89.4012028">
+    <tag k="railway" v="buffer_stop"/>
+  </node>
+  <node id="1179485823" lat="43.0705027" lon="-89.4025258">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1179485826" lat="43.0705233" lon="-89.4026087"/>
+  <node id="1179485831" lat="43.0701516" lon="-89.4012082">
+    <tag k="railway" v="buffer_stop"/>
+  </node>
+  <node id="1179485834" lat="43.0703096" lon="-89.4019131"/>
+  <node id="1179485838" lat="43.0707391" lon="-89.4034740">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1179485840" lat="43.0708143" lon="-89.4036960"/>
+  <node id="1179485848" lat="43.0701666" lon="-89.4015952"/>
+  <node id="1179485850" lat="43.0704098" lon="-89.4023553"/>
+  <node id="1179485865" lat="43.0704204" lon="-89.4021690"/>
+  <node id="1179485867" lat="43.0703288" lon="-89.4021102"/>
+  <node id="1179485871" lat="43.0703546" lon="-89.4019236"/>
+  <node id="1179956569" lat="43.0688882" lon="-89.3978256"/>
+  <node id="1179981739" lat="43.0693836" lon="-89.3994175"/>
+  <node id="1180000909" lat="43.0683373" lon="-89.3960234"/>
+  <node id="1180000922" lat="43.0684288" lon="-89.3961919"/>
+  <node id="1180000925" lat="43.0696509" lon="-89.4001713"/>
+  <node id="1180000939" lat="43.0682848" lon="-89.3958071"/>
+  <node id="1180000979" lat="43.0685263" lon="-89.3966593"/>
+  <node id="1180000981" lat="43.0689286" lon="-89.3978031"/>
+  <node id="1180000983" lat="43.0694201" lon="-89.3993794"/>
+  <node id="1180000987" lat="43.0700181" lon="-89.4013601">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1180001022" lat="43.0685666" lon="-89.3966343"/>
+  <node id="1182472606" lat="43.0664326" lon="-89.3916844"/>
+  <node id="1188083872" lat="43.0711348" lon="-89.4046299"/>
+  <node id="1188083928" lat="43.0715762" lon="-89.4059373"/>
+  <node id="1235046369" lat="43.0740137" lon="-89.4209721"/>
+  <node id="1235046390" lat="43.0733470" lon="-89.4267575"/>
+  <node id="1235046404" lat="43.0742647" lon="-89.4179113"/>
+  <node id="1235046413" lat="43.0740723" lon="-89.4204352"/>
+  <node id="1235046423" lat="43.0739363" lon="-89.4215133"/>
+  <node id="1235046428" lat="43.0743226" lon="-89.4162143"/>
+  <node id="1235046439" lat="43.0743349" lon="-89.4158604"/>
+  <node id="1235046443" lat="43.0741274" lon="-89.4198040"/>
+  <node id="1235046445" lat="43.0743902" lon="-89.4152590">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1235046454" lat="43.0735752" lon="-89.4240121"/>
+  <node id="1235046465" lat="43.0734844" lon="-89.4250074"/>
+  <node id="1235046471" lat="43.0743050" lon="-89.4167786"/>
+  <node id="1235046475" lat="43.0734663" lon="-89.4252393"/>
+  <node id="1235046497" lat="43.0737243" lon="-89.4228647"/>
+  <node id="1235046512" lat="43.0736375" lon="-89.4234892"/>
+  <node id="1235046528" lat="43.0733403" lon="-89.4272662">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1235046531" lat="43.0743539" lon="-89.4156777"/>
+  <node id="1235046542" lat="43.0741855" lon="-89.4190726"/>
+  <node id="1235046546" lat="43.0733572" lon="-89.4265312"/>
+  <node id="1235100149" lat="43.0763009" lon="-89.4587471">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="1235100154" lat="43.0751268" lon="-89.4637990"/>
+  <node id="1235100211" lat="43.0743382" lon="-89.4672752">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="1278129193" lat="43.0643448" lon="-89.3897964">
+    <tag k="crossing:barrier" v="full"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1278129194" lat="43.0644581" lon="-89.3898939">
+    <tag k="crossing:barrier" v="full"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1315870659" lat="43.0676525" lon="-89.3937893">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="1315871315" lat="43.0671532" lon="-89.3926774">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="1345151773" lat="43.0735076" lon="-89.4252421"/>
+  <node id="1345416862" lat="43.0722726" lon="-89.4079848"/>
+  <node id="1345420581" lat="43.0726385" lon="-89.4090588">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1345424869" lat="43.0720628" lon="-89.4073668">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="crossing:bell" v="yes"/>
+    <tag k="crossing:light" v="yes"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1345424872" lat="43.0725245" lon="-89.4087263">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1857601771" lat="43.0715388" lon="-89.4058249">
+    <tag k="check_date:crossing:barrier" v="2023-11-22"/>
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="1887375135" lat="43.0738391" lon="-89.4124769">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2065636549" lat="43.0761580" lon="-89.4436284">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2065636582" lat="43.0762057" lon="-89.4438394">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2065636606" lat="43.0755821" lon="-89.4618372">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2282697625" lat="43.0741394" lon="-89.4196653">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="2282697629" lat="43.0742274" lon="-89.4190721">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="2708071913" lat="43.0730177" lon="-89.4101771">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2857147116" lat="43.0762317" lon="-89.4590293">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="2985253130" lat="43.0697549" lon="-89.4005477">
+    <tag k="railway" v="switch"/>
+  </node>
+  <node id="2985254836" lat="43.0735837" lon="-89.4118051">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2986909957" lat="43.0695385" lon="-89.3999190"/>
+  <node id="2986909959" lat="43.0696105" lon="-89.4001315"/>
+  <node id="2986909974" lat="43.0701246" lon="-89.4017442"/>
+  <node id="2986909996" lat="43.0703789" lon="-89.4024180"/>
+  <node id="2986910025" lat="43.0709079" lon="-89.4039664">
+    <tag k="crossing:barrier" v="full"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2986910135" lat="43.0710912" lon="-89.4045049">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2986910150" lat="43.0714688" lon="-89.4056151">
+    <tag k="check_date:crossing:barrier" v="2023-11-22"/>
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2987141995" lat="43.0731192" lon="-89.4104848"/>
+  <node id="2987142028" lat="43.0736893" lon="-89.4120796"/>
+  <node id="2987142029" lat="43.0737482" lon="-89.4122285"/>
+  <node id="2987142536" lat="43.0739491" lon="-89.4127536"/>
+  <node id="2987142537" lat="43.0741246" lon="-89.4132220"/>
+  <node id="2987142538" lat="43.0742178" lon="-89.4135249"/>
+  <node id="2987142539" lat="43.0742629" lon="-89.4137051"/>
+  <node id="2987142540" lat="43.0743240" lon="-89.4140139"/>
+  <node id="2987142541" lat="43.0743626" lon="-89.4162463"/>
+  <node id="2987142542" lat="43.0743675" lon="-89.4143211"/>
+  <node id="2987142543" lat="43.0743705" lon="-89.4155110"/>
+  <node id="2987142544" lat="43.0743811" lon="-89.4144968"/>
+  <node id="2987142545" lat="43.0743964" lon="-89.4148757"/>
+  <node id="2987142546" lat="43.0743964" lon="-89.4150644"/>
+  <node id="2987974001" lat="43.0677716" lon="-89.3941059">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="crossing:light" v="yes"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="2987974002" lat="43.0679117" lon="-89.3945277"/>
+  <node id="2987974010" lat="43.0682984" lon="-89.3957672"/>
+  <node id="2987974015" lat="43.0683872" lon="-89.3962029"/>
+  <node id="2987978054" lat="43.0695842" lon="-89.3999269"/>
+  <node id="2989819892" lat="43.0724993" lon="-89.4086507">
+    <tag k="crossing:barrier" v="full"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2989820034" lat="43.0726697" lon="-89.4091511">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="2990318222" lat="43.0725583" lon="-89.4088271">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3026444677" lat="43.0709870" lon="-89.4042051">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3026533003" lat="43.0732833" lon="-89.4306050"/>
+  <node id="3026533004" lat="43.0733046" lon="-89.4280315"/>
+  <node id="3026533009" lat="43.0733447" lon="-89.4312583"/>
+  <node id="3026533013" lat="43.0733896" lon="-89.4261426"/>
+  <node id="3026533014" lat="43.0733905" lon="-89.4316176"/>
+  <node id="3026533017" lat="43.0734318" lon="-89.4261455"/>
+  <node id="3026533021" lat="43.0734626" lon="-89.4320640"/>
+  <node id="3026533024" lat="43.0735033" lon="-89.4322811"/>
+  <node id="3026533029" lat="43.0736419" lon="-89.4328992"/>
+  <node id="3026533031" lat="43.0737429" lon="-89.4333267"/>
+  <node id="3033918482" lat="43.0735241" lon="-89.4245088"/>
+  <node id="3033918483" lat="43.0735676" lon="-89.4245006"/>
+  <node id="3033918485" lat="43.0736171" lon="-89.4240289"/>
+  <node id="3033918507" lat="43.0737672" lon="-89.4228753"/>
+  <node id="3033918518" lat="43.0738320" lon="-89.4221770"/>
+  <node id="3033918524" lat="43.0738738" lon="-89.4221980"/>
+  <node id="3035567965" lat="43.0741136" lon="-89.4199766"/>
+  <node id="3035567966" lat="43.0741548" lon="-89.4199841"/>
+  <node id="3035567967" lat="43.0741643" lon="-89.4193541"/>
+  <node id="3035567968" lat="43.0741691" lon="-89.4198210"/>
+  <node id="3035567969" lat="43.0741848" lon="-89.4193757"/>
+  <node id="3035567970" lat="43.0742054" lon="-89.4193682"/>
+  <node id="3035567971" lat="43.0742217" lon="-89.4186522"/>
+  <node id="3035567972" lat="43.0742477" lon="-89.4182782"/>
+  <node id="3035567973" lat="43.0742627" lon="-89.4186503"/>
+  <node id="3035567974" lat="43.0742869" lon="-89.4173628"/>
+  <node id="3035567975" lat="43.0742881" lon="-89.4182735"/>
+  <node id="3035567976" lat="43.0743474" lon="-89.4167825"/>
+  <node id="3088188332" lat="43.0764841" lon="-89.4579402"/>
+  <node id="3127784888" lat="43.0664509" lon="-89.3917088">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3397691389" lat="43.0741611" lon="-89.4690472"/>
+  <node id="3397691390" lat="43.0741887" lon="-89.4703018"/>
+  <node id="3397691391" lat="43.0744625" lon="-89.4666697"/>
+  <node id="3397691392" lat="43.0745545" lon="-89.4662641"/>
+  <node id="3397691394" lat="43.0747500" lon="-89.4654311"/>
+  <node id="3397691399" lat="43.0749701" lon="-89.4385739">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3397691407" lat="43.0754836" lon="-89.4407602"/>
+  <node id="3397691411" lat="43.0758094" lon="-89.4608557"/>
+  <node id="3397691412" lat="43.0758627" lon="-89.4423728"/>
+  <node id="3397691414" lat="43.0760204" lon="-89.4599433"/>
+  <node id="3397691415" lat="43.0760206" lon="-89.4430531"/>
+  <node id="3397691420" lat="43.0763606" lon="-89.4445034"/>
+  <node id="3397691424" lat="43.0766131" lon="-89.4456312"/>
+  <node id="3397691425" lat="43.0768249" lon="-89.4467805"/>
+  <node id="3397691430" lat="43.0769585" lon="-89.4476987"/>
+  <node id="3397691433" lat="43.0769843" lon="-89.4551087"/>
+  <node id="3397691437" lat="43.0770968" lon="-89.4540452"/>
+  <node id="3397691438" lat="43.0771187" lon="-89.4492271"/>
+  <node id="3397691439" lat="43.0771783" lon="-89.4527761"/>
+  <node id="3397691440" lat="43.0771844" lon="-89.4503546"/>
+  <node id="3397691441" lat="43.0772010" lon="-89.4519886"/>
+  <node id="3397691442" lat="43.0772063" lon="-89.4515307"/>
+  <node id="3522785751" lat="43.0738155" lon="-89.4336263">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3522785762" lat="43.0738825" lon="-89.4339196">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3607816640" lat="43.0734203" lon="-89.4113603">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="3608310590" lat="43.0732752" lon="-89.4289607">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3608310592" lat="43.0732864" lon="-89.4286817">
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="3945880897" lat="43.0732822" lon="-89.4287620">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="3945880933" lat="43.0732798" lon="-89.4288762">
+    <tag k="crossing:barrier" v="half"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="3945880946" lat="43.0732812" lon="-89.4288237"/>
+  <node id="8403591755" lat="43.0705178" lon="-89.4026751"/>
+  <node id="9234107550" lat="43.0645448" lon="-89.3899716">
+    <tag k="crossing:barrier" v="no"/>
+    <tag k="railway" v="crossing"/>
+  </node>
+  <node id="9351517719" lat="43.0639677" lon="-89.3894556"/>
+  <way id="52227728">
+    <nd ref="664966691"/>
+    <nd ref="664966692"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="102201658">
+    <nd ref="1179485818"/>
+    <nd ref="1179485798"/>
+    <nd ref="1179485834"/>
+    <nd ref="1179485793"/>
+    <nd ref="1179485823"/>
+    <nd ref="1179485826"/>
+    <nd ref="1179485817"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="102201660">
+    <nd ref="1179485822"/>
+    <nd ref="1179485848"/>
+    <nd ref="1179485867"/>
+    <nd ref="1179485850"/>
+    <nd ref="8403591755"/>
+    <nd ref="1179485817"/>
+    <nd ref="1179485815"/>
+    <nd ref="1179485800"/>
+    <nd ref="1179485838"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="102201661">
+    <nd ref="1179485831"/>
+    <nd ref="1179485871"/>
+    <nd ref="1179485865"/>
+    <nd ref="1179485823"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="102235307">
+    <nd ref="53450868"/>
+    <nd ref="1180000939"/>
+    <nd ref="1180000909"/>
+    <nd ref="2987974015"/>
+    <nd ref="1180000979"/>
+    <nd ref="1179956569"/>
+    <nd ref="1179981739"/>
+    <nd ref="2986909957"/>
+    <nd ref="2986909959"/>
+    <nd ref="2985253130"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="service" v="siding"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="102394218">
+    <nd ref="9351517719"/>
+    <nd ref="362555925"/>
+    <nd ref="1278129193"/>
+    <nd ref="53450839"/>
+    <nd ref="1278129194"/>
+    <nd ref="9234107550"/>
+    <nd ref="53450840"/>
+    <nd ref="53450842"/>
+    <nd ref="53450845"/>
+    <nd ref="1182472606"/>
+    <nd ref="3127784888"/>
+    <nd ref="53450847"/>
+    <nd ref="53450848"/>
+    <nd ref="53450850"/>
+    <nd ref="53450853"/>
+    <nd ref="53450855"/>
+    <nd ref="1315871315"/>
+    <nd ref="53450857"/>
+    <nd ref="53450858"/>
+    <nd ref="53450861"/>
+    <nd ref="1315870659"/>
+    <nd ref="53450862"/>
+    <nd ref="2987974001"/>
+    <nd ref="53450863"/>
+    <nd ref="2987974002"/>
+    <nd ref="53450866"/>
+    <nd ref="53450868"/>
+    <nd ref="2987974010"/>
+    <nd ref="1180000922"/>
+    <nd ref="1180001022"/>
+    <nd ref="1180000981"/>
+    <nd ref="1180000983"/>
+    <nd ref="2987978054"/>
+    <nd ref="1180000925"/>
+    <nd ref="2985253130"/>
+    <nd ref="664966691"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="102878293">
+    <nd ref="664966692"/>
+    <nd ref="1180000987"/>
+    <nd ref="2986909996"/>
+    <nd ref="1179485838"/>
+    <nd ref="1179485840"/>
+    <nd ref="2986910025"/>
+    <nd ref="53450881"/>
+    <nd ref="3026444677"/>
+    <nd ref="53450883"/>
+    <nd ref="2986910135"/>
+    <nd ref="1188083872"/>
+    <nd ref="2986910150"/>
+    <nd ref="53450885"/>
+    <nd ref="1857601771"/>
+    <nd ref="1188083928"/>
+    <nd ref="53450886"/>
+    <nd ref="1345424869"/>
+    <nd ref="53450889"/>
+    <nd ref="1345416862"/>
+    <nd ref="2989819892"/>
+    <nd ref="1345424872"/>
+    <nd ref="2990318222"/>
+    <nd ref="53450891"/>
+    <nd ref="1345420581"/>
+    <nd ref="2989820034"/>
+    <nd ref="2708071913"/>
+    <nd ref="2987141995"/>
+    <nd ref="53450893"/>
+    <nd ref="53596810"/>
+    <nd ref="53450894"/>
+    <nd ref="3607816640"/>
+    <nd ref="314505834"/>
+    <nd ref="2985254836"/>
+    <nd ref="53450896"/>
+    <nd ref="2987142028"/>
+    <nd ref="2987142029"/>
+    <nd ref="1887375135"/>
+    <nd ref="2987142536"/>
+    <nd ref="53450898"/>
+    <nd ref="2987142537"/>
+    <nd ref="53450900"/>
+    <nd ref="2987142538"/>
+    <nd ref="2987142539"/>
+    <nd ref="53450901"/>
+    <nd ref="2987142540"/>
+    <nd ref="53450903"/>
+    <nd ref="2987142542"/>
+    <nd ref="2987142544"/>
+    <nd ref="53450904"/>
+    <nd ref="2987142545"/>
+    <nd ref="2987142546"/>
+    <nd ref="1235046445"/>
+    <nd ref="53450907"/>
+    <nd ref="2987142541"/>
+    <nd ref="3035567976"/>
+    <nd ref="53450908"/>
+    <nd ref="53450910"/>
+    <nd ref="3035567975"/>
+    <nd ref="3035567973"/>
+    <nd ref="2282697629"/>
+    <nd ref="3035567970"/>
+    <nd ref="53450912"/>
+    <nd ref="3035567968"/>
+    <nd ref="3035567966"/>
+    <nd ref="53450914"/>
+    <nd ref="53450916"/>
+    <nd ref="53450918"/>
+    <nd ref="3033918524"/>
+    <nd ref="3033918507"/>
+    <nd ref="53450921"/>
+    <nd ref="3033918485"/>
+    <nd ref="3033918483"/>
+    <nd ref="53643614"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="107467480">
+    <nd ref="1235046445"/>
+    <nd ref="2987142543"/>
+    <nd ref="1235046531"/>
+    <nd ref="1235046439"/>
+    <nd ref="1235046428"/>
+    <nd ref="1235046471"/>
+    <nd ref="3035567974"/>
+    <nd ref="1235046404"/>
+    <nd ref="3035567972"/>
+    <nd ref="3035567971"/>
+    <nd ref="1235046542"/>
+    <nd ref="3035567967"/>
+    <nd ref="2282697625"/>
+    <nd ref="1235046443"/>
+    <nd ref="3035567965"/>
+    <nd ref="1235046413"/>
+    <nd ref="1235046369"/>
+    <nd ref="1235046423"/>
+    <nd ref="3033918518"/>
+    <nd ref="1235046497"/>
+    <nd ref="1235046512"/>
+    <nd ref="1235046454"/>
+    <nd ref="3033918482"/>
+    <nd ref="1235046465"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="119819452">
+    <nd ref="1345151773"/>
+    <nd ref="3026533017"/>
+    <nd ref="53450925"/>
+    <nd ref="1235046528"/>
+    <nd ref="53450927"/>
+    <nd ref="3026533004"/>
+    <nd ref="496896182"/>
+    <nd ref="3608310592"/>
+    <nd ref="3945880897"/>
+    <nd ref="3945880946"/>
+    <nd ref="3945880933"/>
+    <nd ref="3608310590"/>
+    <nd ref="496896184"/>
+    <nd ref="496896185"/>
+    <nd ref="496896187"/>
+    <nd ref="496896188"/>
+    <nd ref="3026533003"/>
+    <nd ref="496896189"/>
+    <nd ref="496896190"/>
+    <nd ref="3026533009"/>
+    <nd ref="496896191"/>
+    <nd ref="3026533014"/>
+    <nd ref="496896192"/>
+    <nd ref="3026533021"/>
+    <nd ref="3026533024"/>
+    <nd ref="496896193"/>
+    <nd ref="3026533029"/>
+    <nd ref="3026533031"/>
+    <nd ref="3522785751"/>
+    <nd ref="53703307"/>
+    <nd ref="3522785762"/>
+    <nd ref="3397691399"/>
+    <nd ref="53692990"/>
+    <nd ref="53450955"/>
+    <nd ref="53450957"/>
+    <nd ref="3397691407"/>
+    <nd ref="53450959"/>
+    <nd ref="3397691412"/>
+    <nd ref="3397691415"/>
+    <nd ref="2065636549"/>
+    <nd ref="53693670"/>
+    <nd ref="2065636582"/>
+    <nd ref="3397691420"/>
+    <nd ref="53450962"/>
+    <nd ref="3397691424"/>
+    <nd ref="53697052"/>
+    <nd ref="53450966"/>
+    <nd ref="3397691425"/>
+    <nd ref="53450969"/>
+    <nd ref="3397691430"/>
+    <nd ref="53450971"/>
+    <nd ref="53458763"/>
+    <nd ref="3397691438"/>
+    <nd ref="53450974"/>
+    <nd ref="53450976"/>
+    <nd ref="3397691440"/>
+    <nd ref="53450977"/>
+    <nd ref="53450978"/>
+    <nd ref="3397691442"/>
+    <nd ref="3397691441"/>
+    <nd ref="53450983"/>
+    <nd ref="3397691439"/>
+    <nd ref="53450984"/>
+    <nd ref="53450990"/>
+    <nd ref="3397691437"/>
+    <nd ref="53450991"/>
+    <nd ref="53450994"/>
+    <nd ref="3397691433"/>
+    <nd ref="53450996"/>
+    <nd ref="53450998"/>
+    <nd ref="53450999"/>
+    <nd ref="53451001"/>
+    <nd ref="53451003"/>
+    <nd ref="3088188332"/>
+    <nd ref="1235100149"/>
+    <nd ref="53451007"/>
+    <nd ref="2857147116"/>
+    <nd ref="3397691414"/>
+    <nd ref="3397691411"/>
+    <nd ref="53451009"/>
+    <nd ref="2065636606"/>
+    <nd ref="496896086"/>
+    <nd ref="496896087"/>
+    <nd ref="496896088"/>
+    <nd ref="1235100154"/>
+    <nd ref="53451016"/>
+    <nd ref="3397691394"/>
+    <nd ref="3397691392"/>
+    <nd ref="3397691391"/>
+    <nd ref="53451018"/>
+    <nd ref="1235100211"/>
+    <nd ref="1004883943"/>
+    <nd ref="53653938"/>
+    <nd ref="1178748008"/>
+    <nd ref="53451022"/>
+    <nd ref="53451024"/>
+    <nd ref="53451026"/>
+    <nd ref="53451028"/>
+    <nd ref="53451030"/>
+    <nd ref="3397691389"/>
+    <nd ref="53451032"/>
+    <nd ref="53451034"/>
+    <nd ref="53451035"/>
+    <nd ref="3397691390"/>
+    <nd ref="53451036"/>
+    <nd ref="53451039"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="name" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="119819462">
+    <nd ref="53643614"/>
+    <nd ref="1345151773"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="tiger:cfcc" v="B11"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Wisconsin &amp; Southern Railroad"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="119819463">
+    <nd ref="1235046475"/>
+    <nd ref="3026533013"/>
+    <nd ref="1235046546"/>
+    <nd ref="1235046390"/>
+    <nd ref="1235046528"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="119819466">
+    <nd ref="1235046465"/>
+    <nd ref="1235046475"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="219060578">
+    <nd ref="2282697625"/>
+    <nd ref="3035567969"/>
+    <nd ref="2282697629"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="295030748">
+    <nd ref="2986909974"/>
+    <nd ref="1180000987"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="Wisconsin and Southern Railroad"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+</osm>

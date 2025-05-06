@@ -1,0 +1,3324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.8 b1080abd">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2025-05-06T17:07:05Z"/>
+  <node id="37936003" lat="43.0735834" lon="-89.4229654"/>
+  <node id="53399464" lat="43.0732878" lon="-89.4015191"/>
+  <node id="53450891" lat="43.0725996" lon="-89.4089487">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53456047" lat="43.0733707" lon="-89.4096009"/>
+  <node id="53456049" lat="43.0729970" lon="-89.4095980"/>
+  <node id="53461749" lat="43.0733424" lon="-89.4060622">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="53461758" lat="43.0733691" lon="-89.4089956">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="53461762" lat="43.0733771" lon="-89.4098566"/>
+  <node id="53461764" lat="43.0734267" lon="-89.4104612"/>
+  <node id="53461767" lat="43.0734576" lon="-89.4109476">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="53461779" lat="43.0736174" lon="-89.4130613">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="53461796" lat="43.0733345" lon="-89.4118157"/>
+  <node id="53462356" lat="43.0681684" lon="-89.4122265"/>
+  <node id="53472480" lat="43.0732353" lon="-89.3939533">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="53498866" lat="43.0679132" lon="-89.4237892">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="53523650" lat="43.0721876" lon="-89.4089622"/>
+  <node id="53529425" lat="43.0732569" lon="-89.3990542">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="53582205" lat="43.0720351" lon="-89.3974632">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="53589716" lat="43.0734017" lon="-89.4101755"/>
+  <node id="53596803" lat="43.0734686" lon="-89.4127353"/>
+  <node id="53596804" lat="43.0734315" lon="-89.4125512"/>
+  <node id="53596810" lat="43.0733046" lon="-89.4110186">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="53596812" lat="43.0732840" lon="-89.4106020"/>
+  <node id="53596815" lat="43.0732620" lon="-89.4104160"/>
+  <node id="53596817" lat="43.0732250" lon="-89.4102670"/>
+  <node id="53596818" lat="43.0727973" lon="-89.4089916">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="53596821" lat="43.0724100" lon="-89.4078590"/>
+  <node id="53596824" lat="43.0723250" lon="-89.4075840"/>
+  <node id="53596826" lat="43.0722880" lon="-89.4074447">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="53596827" lat="43.0722266" lon="-89.4071142"/>
+  <node id="53607075" lat="43.0721664" lon="-89.4057260"/>
+  <node id="53610888" lat="43.0678873" lon="-89.4212312"/>
+  <node id="53616188" lat="43.0721144" lon="-89.4024527">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="53616189" lat="43.0733004" lon="-89.4024093">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="53652447" lat="43.0751576" lon="-89.4413602"/>
+  <node id="53652462" lat="43.0733164" lon="-89.4035381"/>
+  <node id="53652463" lat="43.0733242" lon="-89.4040855">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="53652465" lat="43.0733284" lon="-89.4042054">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="53652531" lat="43.0731972" lon="-89.3940532"/>
+  <node id="53652532" lat="43.0731710" lon="-89.3942352"/>
+  <node id="53668996" lat="43.0721404" lon="-89.4040850">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="53701513" lat="43.0678620" lon="-89.4188621">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="53701515" lat="43.0678666" lon="-89.4192813"/>
+  <node id="53701517" lat="43.0678780" lon="-89.4206560"/>
+  <node id="53720184" lat="43.0721034" lon="-89.3938351"/>
+  <node id="53720186" lat="43.0720318" lon="-89.3940023"/>
+  <node id="53720188" lat="43.0719983" lon="-89.3941441"/>
+  <node id="53720190" lat="43.0719905" lon="-89.3943007"/>
+  <node id="53720195" lat="43.0720583" lon="-89.3989184"/>
+  <node id="53720208" lat="43.0721713" lon="-89.4060900"/>
+  <node id="53720210" lat="43.0721876" lon="-89.4067456"/>
+  <node id="314505680" lat="43.0739903" lon="-89.4187070"/>
+  <node id="314505681" lat="43.0739321" lon="-89.4194649"/>
+  <node id="314505682" lat="43.0737832" lon="-89.4209367"/>
+  <node id="314505683" lat="43.0736029" lon="-89.4222065"/>
+  <node id="314505691" lat="43.0739375" lon="-89.4132773"/>
+  <node id="314505692" lat="43.0741089" lon="-89.4139721"/>
+  <node id="314505693" lat="43.0741915" lon="-89.4145638"/>
+  <node id="314505694" lat="43.0742050" lon="-89.4154126"/>
+  <node id="314505695" lat="43.0741476" lon="-89.4173696"/>
+  <node id="314505696" lat="43.0740870" lon="-89.4185985"/>
+  <node id="314505697" lat="43.0740232" lon="-89.4194500"/>
+  <node id="314505698" lat="43.0739800" lon="-89.4199939"/>
+  <node id="314505699" lat="43.0738811" lon="-89.4208455"/>
+  <node id="314505701" lat="43.0737197" lon="-89.4220586"/>
+  <node id="314505706" lat="43.0741052" lon="-89.4145482"/>
+  <node id="314505707" lat="43.0741268" lon="-89.4148622"/>
+  <node id="314505708" lat="43.0741238" lon="-89.4154129"/>
+  <node id="314505709" lat="43.0740632" lon="-89.4173821"/>
+  <node id="314505710" lat="43.0740301" lon="-89.4139972"/>
+  <node id="314505711" lat="43.0739446" lon="-89.4136370"/>
+  <node id="314505712" lat="43.0736818" lon="-89.4131367"/>
+  <node id="314505790" lat="43.0735217" lon="-89.4119119"/>
+  <node id="314505791" lat="43.0735468" lon="-89.4120752"/>
+  <node id="314505792" lat="43.0736308" lon="-89.4124262"/>
+  <node id="314505834" lat="43.0734839" lon="-89.4115402">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="340002677" lat="43.0734655" lon="-89.4231608"/>
+  <node id="340003333" lat="43.0745103" lon="-89.4372206"/>
+  <node id="340003334" lat="43.0752223" lon="-89.4403449"/>
+  <node id="340003335" lat="43.0752936" lon="-89.4410390"/>
+  <node id="340003518" lat="43.0730321" lon="-89.4279525"/>
+  <node id="340003520" lat="43.0730055" lon="-89.4298828"/>
+  <node id="340003521" lat="43.0730684" lon="-89.4308828"/>
+  <node id="340003522" lat="43.0732655" lon="-89.4322895"/>
+  <node id="340003523" lat="43.0733827" lon="-89.4329632"/>
+  <node id="340003524" lat="43.0738081" lon="-89.4345856"/>
+  <node id="340003539" lat="43.0742230" lon="-89.4361354"/>
+  <node id="340003547" lat="43.0731301" lon="-89.4266668"/>
+  <node id="340003672" lat="43.0732455" lon="-89.4254755">
+    <tag k="highway" v="motorway_junction"/>
+  </node>
+  <node id="340003797" lat="43.0731612" lon="-89.4328556"/>
+  <node id="340003864" lat="43.0734382" lon="-89.4239598"/>
+  <node id="340003891" lat="43.0733504" lon="-89.4239340"/>
+  <node id="434793123" lat="43.0751712" lon="-89.4446174"/>
+  <node id="446014009" lat="43.0751988" lon="-89.4466696"/>
+  <node id="450714559" lat="43.0731958" lon="-89.3958203">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="450714568" lat="43.0697799" lon="-89.4009922"/>
+  <node id="450714993" lat="43.0732749" lon="-89.4006096">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="452866506" lat="43.0735674" lon="-89.4129900">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="465144367" lat="43.0733654" lon="-89.4085888"/>
+  <node id="482804869" lat="43.0751614" lon="-89.4437393">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="482804871" lat="43.0748945" lon="-89.4387522">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="482804872" lat="43.0747325" lon="-89.4387917">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="482804873" lat="43.0729177" lon="-89.4285577"/>
+  <node id="482804874" lat="43.0729400" lon="-89.4280967"/>
+  <node id="482804875" lat="43.0729690" lon="-89.4275894"/>
+  <node id="482804876" lat="43.0730317" lon="-89.4268414"/>
+  <node id="482804877" lat="43.0731080" lon="-89.4259408"/>
+  <node id="482804878" lat="43.0731860" lon="-89.4252446"/>
+  <node id="482804879" lat="43.0729105" lon="-89.4289581"/>
+  <node id="482804880" lat="43.0732132" lon="-89.4250031"/>
+  <node id="482804881" lat="43.0732697" lon="-89.4252441"/>
+  <node id="482804882" lat="43.0729950" lon="-89.4285718"/>
+  <node id="482804883" lat="43.0733977" lon="-89.4337446">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="482804884" lat="43.0735756" lon="-89.4337367">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="482804885" lat="43.0740814" lon="-89.4362082"/>
+  <node id="482804886" lat="43.0729899" lon="-89.4289711"/>
+  <node id="482804887" lat="43.0732963" lon="-89.4250033"/>
+  <node id="482804888" lat="43.0751681" lon="-89.4427624"/>
+  <node id="482804889" lat="43.0751426" lon="-89.4409341"/>
+  <node id="482804890" lat="43.0750739" lon="-89.4403199"/>
+  <node id="482804891" lat="43.0730328" lon="-89.4320290"/>
+  <node id="482804892" lat="43.0729695" lon="-89.4314761"/>
+  <node id="482804893" lat="43.0729200" lon="-89.4306876"/>
+  <node id="1155602880" lat="43.0713708" lon="-89.4090242"/>
+  <node id="1179459672" lat="43.0687385" lon="-89.4008667"/>
+  <node id="1179459686" lat="43.0720888" lon="-89.4008434">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="1179459691" lat="43.0723099" lon="-89.4006115"/>
+  <node id="1179459693" lat="43.0720861" lon="-89.4006701">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="1179459701" lat="43.0709613" lon="-89.4009258">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1179459703" lat="43.0687393" lon="-89.4010372"/>
+  <node id="1179459704" lat="43.0713489" lon="-89.4009178"/>
+  <node id="1179459705" lat="43.0718290" lon="-89.4008993"/>
+  <node id="1179459707" lat="43.0693267" lon="-89.4010257"/>
+  <node id="1179459709" lat="43.0682260" lon="-89.4010531"/>
+  <node id="1179459711" lat="43.0701875" lon="-89.4007858"/>
+  <node id="1179459722" lat="43.0726666" lon="-89.4005517"/>
+  <node id="1179459723" lat="43.0731054" lon="-89.4005407"/>
+  <node id="1179459724" lat="43.0709534" lon="-89.4007567">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1179459725" lat="43.0715211" lon="-89.4009169"/>
+  <node id="1179459736" lat="43.0702007" lon="-89.4009526"/>
+  <node id="1179459738" lat="43.0712549" lon="-89.4007407"/>
+  <node id="1179459741" lat="43.0724245" lon="-89.4007366"/>
+  <node id="1179459747" lat="43.0718701" lon="-89.4007086"/>
+  <node id="1179459749" lat="43.0731031" lon="-89.4006938"/>
+  <node id="1179459750" lat="43.0725730" lon="-89.4007112"/>
+  <node id="1179459752" lat="43.0690671" lon="-89.4010287"/>
+  <node id="1179459754" lat="43.0693242" lon="-89.4008471"/>
+  <node id="1179459773" lat="43.0676614" lon="-89.4010665">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1180000915" lat="43.0679425" lon="-89.4125798">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1180005838" lat="43.0710831" lon="-89.4090215">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1180005843" lat="43.0701832" lon="-89.4090391"/>
+  <node id="1180120575" lat="43.0679759" lon="-89.4008678"/>
+  <node id="1180120618" lat="43.0684919" lon="-89.4008702"/>
+  <node id="1180120701" lat="43.0720846" lon="-89.4005609">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1180120715" lat="43.0732731" lon="-89.4004639">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1186513235" lat="43.0720025" lon="-89.3952800"/>
+  <node id="1345151763" lat="43.0749064" lon="-89.4395005"/>
+  <node id="1345151770" lat="43.0750891" lon="-89.4395998"/>
+  <node id="1345416864" lat="43.0722090" lon="-89.4069907"/>
+  <node id="1345420569" lat="43.0719130" lon="-89.4090826"/>
+  <node id="1345420571" lat="43.0718504" lon="-89.4089805"/>
+  <node id="1345420581" lat="43.0726385" lon="-89.4090588">
+    <tag k="railway" v="level_crossing"/>
+  </node>
+  <node id="1345420584" lat="43.0720427" lon="-89.4090853"/>
+  <node id="1345420587" lat="43.0725242" lon="-89.4090648"/>
+  <node id="1345420590" lat="43.0720606" lon="-89.4089693"/>
+  <node id="1345420592" lat="43.0725049" lon="-89.4089512">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1345420597" lat="43.0715466" lon="-89.4090313"/>
+  <node id="1345424861" lat="43.0722535" lon="-89.4089575"/>
+  <node id="1345424866" lat="43.0722683" lon="-89.4073645">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1345424868" lat="43.0725614" lon="-89.4083147"/>
+  <node id="1345424870" lat="43.0723135" lon="-89.4090736">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1345424871" lat="43.0733543" lon="-89.4073734">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1345869306" lat="43.0679757" lon="-89.4264511"/>
+  <node id="1349224244" lat="43.0752954" lon="-89.4411082"/>
+  <node id="1349224292" lat="43.0753084" lon="-89.4437599">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1358610633" lat="43.0737750" lon="-89.4132621"/>
+  <node id="1358610634" lat="43.0738648" lon="-89.4134016"/>
+  <node id="1358610641" lat="43.0739076" lon="-89.4135083"/>
+  <node id="1358610643" lat="43.0738295" lon="-89.4133423"/>
+  <node id="1424064622" lat="43.0732758" lon="-89.4089949"/>
+  <node id="1424064626" lat="43.0731893" lon="-89.4005686"/>
+  <node id="1424064639" lat="43.0731907" lon="-89.4006509"/>
+  <node id="1426438819" lat="43.0680218" lon="-89.4124674">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1426438839" lat="43.0699911" lon="-89.4092357"/>
+  <node id="1426704648" lat="43.0676811" lon="-89.4293981"/>
+  <node id="1426704651" lat="43.0676354" lon="-89.4293593"/>
+  <node id="1426704655" lat="43.0679834" lon="-89.4287902"/>
+  <node id="1426704656" lat="43.0678975" lon="-89.4288868"/>
+  <node id="1426704657" lat="43.0676068" lon="-89.4294529"/>
+  <node id="1426704659" lat="43.0679030" lon="-89.4284807"/>
+  <node id="1426704660" lat="43.0678069" lon="-89.4291172"/>
+  <node id="1426704665" lat="43.0678755" lon="-89.4289727">
+    <tag k="direction" v="forward"/>
+    <tag k="highway" v="stop"/>
+  </node>
+  <node id="1426704668" lat="43.0679503" lon="-89.4290492"/>
+  <node id="1426704673" lat="43.0678680" lon="-89.4291635"/>
+  <node id="1426704674" lat="43.0679875" lon="-89.4288759"/>
+  <node id="1533633321" lat="43.0722444" lon="-89.4072350">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1533634534" lat="43.0721286" lon="-89.4033379"/>
+  <node id="1850579217" lat="43.0736077" lon="-89.4338539">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1857601533" lat="43.0737301" lon="-89.4126975">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1857601569" lat="43.0733875" lon="-89.4100452">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1857601633" lat="43.0722482" lon="-89.4090754"/>
+  <node id="1857601784" lat="43.0734989" lon="-89.4128452">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1857707031" lat="43.0732828" lon="-89.4011580"/>
+  <node id="1857707037" lat="43.0732923" lon="-89.4018244"/>
+  <node id="1857746110" lat="43.0732581" lon="-89.3991619">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1857864177" lat="43.0732638" lon="-89.3996468"/>
+  <node id="1857864206" lat="43.0732454" lon="-89.3984299"/>
+  <node id="1859358832" lat="43.0733494" lon="-89.4068282"/>
+  <node id="1859358846" lat="43.0721936" lon="-89.4068383"/>
+  <node id="1859358884" lat="43.0733497" lon="-89.4068599"/>
+  <node id="1859358892" lat="43.0721768" lon="-89.4065001"/>
+  <node id="1859409784" lat="43.0710422" lon="-89.4009255">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="1859409794" lat="43.0708703" lon="-89.4009307">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="1887360594" lat="43.0732992" lon="-89.4023137">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1887360596" lat="43.0733228" lon="-89.4039855">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1887360609" lat="43.0733441" lon="-89.4062938">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1887360611" lat="43.0733408" lon="-89.4058896">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="1887371649" lat="43.0734616" lon="-89.4110143">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1887371652" lat="43.0734741" lon="-89.4112961">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1887371660" lat="43.0731720" lon="-89.4101167">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="ladder"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2298789012" lat="43.0678618" lon="-89.4187620"/>
+  <node id="2352893887" lat="43.0744287" lon="-89.4374881"/>
+  <node id="2726215346" lat="43.0720609" lon="-89.3990848">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="2771341213" lat="43.0680801" lon="-89.4008665"/>
+  <node id="2771341215" lat="43.0680865" lon="-89.4010556"/>
+  <node id="2771378236" lat="43.0736739" lon="-89.4347397"/>
+  <node id="2771417899" lat="43.0733425" lon="-89.4239969"/>
+  <node id="2848204379" lat="43.0679983" lon="-89.4289791"/>
+  <node id="2848204391" lat="43.0679290" lon="-89.4282254"/>
+  <node id="2848493184" lat="43.0679767" lon="-89.4286921"/>
+  <node id="2848493190" lat="43.0679093" lon="-89.4233962"/>
+  <node id="2848493191" lat="43.0679085" lon="-89.4233115"/>
+  <node id="2848493194" lat="43.0679171" lon="-89.4242690"/>
+  <node id="2852024754" lat="43.0740410" lon="-89.4179340"/>
+  <node id="2852024757" lat="43.0679682" lon="-89.4285894">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2852024758" lat="43.0679080" lon="-89.4287995"/>
+  <node id="2852024760" lat="43.0679569" lon="-89.4283256"/>
+  <node id="2857173956" lat="43.0753104" lon="-89.4424550"/>
+  <node id="2857173957" lat="43.0753113" lon="-89.4418340"/>
+  <node id="2857173958" lat="43.0753008" lon="-89.4413588"/>
+  <node id="2857173959" lat="43.0752987" lon="-89.4412030"/>
+  <node id="2859245574" lat="43.0720112" lon="-89.3958667">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="2859245581" lat="43.0732116" lon="-89.3966363"/>
+  <node id="2859245582" lat="43.0732269" lon="-89.3974287">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="2859302267" lat="43.0676586" lon="-89.4008706">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2859304393" lat="43.0703663" lon="-89.4090060"/>
+  <node id="2859304394" lat="43.0702682" lon="-89.4090142"/>
+  <node id="2859304395" lat="43.0700843" lon="-89.4090938"/>
+  <node id="2859304396" lat="43.0695561" lon="-89.4099466"/>
+  <node id="2859304397" lat="43.0693335" lon="-89.4103181"/>
+  <node id="2859304398" lat="43.0692266" lon="-89.4104922"/>
+  <node id="2859304399" lat="43.0684274" lon="-89.4117991"/>
+  <node id="2859304400" lat="43.0687009" lon="-89.4113591"/>
+  <node id="2859304801" lat="43.0690772" lon="-89.4107405"/>
+  <node id="2859304802" lat="43.0688367" lon="-89.4111360"/>
+  <node id="2859304803" lat="43.0683412" lon="-89.4119478"/>
+  <node id="2859310159" lat="43.0707240" lon="-89.4090118"/>
+  <node id="2986909953" lat="43.0693902" lon="-89.4008424">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2986909954" lat="43.0693935" lon="-89.4010215">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2987035527" lat="43.0678250" lon="-89.4136757"/>
+  <node id="2987035528" lat="43.0678339" lon="-89.4135380"/>
+  <node id="2987035531" lat="43.0678547" lon="-89.4134181"/>
+  <node id="2987035532" lat="43.0678613" lon="-89.4127111">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2987035533" lat="43.0678704" lon="-89.4129286">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2987035534" lat="43.0678718" lon="-89.4132842"/>
+  <node id="2987035535" lat="43.0678766" lon="-89.4131140"/>
+  <node id="2987035563" lat="43.0686507" lon="-89.4114399"/>
+  <node id="2987141996" lat="43.0733131" lon="-89.4112466">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2987142014" lat="43.0735855" lon="-89.4122752"/>
+  <node id="2987142027" lat="43.0736875" lon="-89.4125793">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2988209513" lat="43.0716844" lon="-89.4009139"/>
+  <node id="2989816820" lat="43.0716936" lon="-89.4089938"/>
+  <node id="2989816821" lat="43.0716957" lon="-89.4090746"/>
+  <node id="2989820115" lat="43.0738360" lon="-89.4129779"/>
+  <node id="2989820118" lat="43.0740300" lon="-89.4135906"/>
+  <node id="2989820119" lat="43.0740704" lon="-89.4137563"/>
+  <node id="2989820120" lat="43.0740735" lon="-89.4142705"/>
+  <node id="2989820121" lat="43.0741287" lon="-89.4151158"/>
+  <node id="2989820122" lat="43.0741538" lon="-89.4142354"/>
+  <node id="2989820123" lat="43.0741820" lon="-89.4144648"/>
+  <node id="2989820124" lat="43.0742086" lon="-89.4148722"/>
+  <node id="2989820125" lat="43.0742117" lon="-89.4151302"/>
+  <node id="2989979554" lat="43.0698070" lon="-89.4008118"/>
+  <node id="2990318172" lat="43.0720976" lon="-89.4089672">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318175" lat="43.0721030" lon="-89.4090820">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318187" lat="43.0721406" lon="-89.4090800"/>
+  <node id="2990318210" lat="43.0723120" lon="-89.4089560">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318231" lat="43.0726824" lon="-89.4089672">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318233" lat="43.0727021" lon="-89.4090320">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318236" lat="43.0727438" lon="-89.4088372">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318241" lat="43.0728472" lon="-89.4091431">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318242" lat="43.0728806" lon="-89.4089922">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2990318266" lat="43.0733676" lon="-89.4088343">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2994560865" lat="43.0719873" lon="-89.4008704">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2994560866" lat="43.0721817" lon="-89.4006461">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2994560867" lat="43.0721838" lon="-89.4008115">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2994560873" lat="43.0724945" lon="-89.4005691"/>
+  <node id="2994560877" lat="43.0727087" lon="-89.4007007"/>
+  <node id="2994560889" lat="43.0732551" lon="-89.3989569">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2995259110" lat="43.0708677" lon="-89.4007600">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="2995259119" lat="43.0710425" lon="-89.4007520">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="2995259571" lat="43.0719829" lon="-89.4006891">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2995259575" lat="43.0720906" lon="-89.4009577">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2995259579" lat="43.0721646" lon="-89.4056108">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="2995259580" lat="43.0721682" lon="-89.4058607">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3023830058" lat="43.0732298" lon="-89.3975863">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3026444679" lat="43.0710034" lon="-89.4090183">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3026444704" lat="43.0711625" lon="-89.4090222">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3035654118" lat="43.0678678" lon="-89.4128662">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3035654127" lat="43.0678975" lon="-89.4126525">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3100613324" lat="43.0733534" lon="-89.4072679">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="3100613328" lat="43.0733551" lon="-89.4074562">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="3100743773" lat="43.0720379" lon="-89.3976354">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3100743777" lat="43.0720329" lon="-89.3973148">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3192311292" lat="43.0722614" lon="-89.4073271"/>
+  <node id="3192311297" lat="43.0733537" lon="-89.4073069"/>
+  <node id="3229347467" lat="43.0700526" lon="-89.4091358">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3229347468" lat="43.0700974" lon="-89.4090820"/>
+  <node id="3229347469" lat="43.0701078" lon="-89.4090757"/>
+  <node id="3229347470" lat="43.0701395" lon="-89.4090570">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3241106091" lat="43.0722663" lon="-89.3935387">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="3269831634" lat="43.0731762" lon="-89.3947147"/>
+  <node id="3301801134" lat="43.0751853" lon="-89.4453404"/>
+  <node id="3301805343" lat="43.0753197" lon="-89.4449967"/>
+  <node id="3301809578" lat="43.0753267" lon="-89.4458170"/>
+  <node id="3307005685" lat="43.0677419" lon="-89.4008686">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3307005686" lat="43.0677474" lon="-89.4010645">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3358645689" lat="43.0720133" lon="-89.3960025">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3359573121" lat="43.0679105" lon="-89.4235236"/>
+  <node id="3359574810" lat="43.0679094" lon="-89.4234104">
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="3393344036" lat="43.0678863" lon="-89.4211320">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3393344037" lat="43.0678890" lon="-89.4213319">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3522785654" lat="43.0733657" lon="-89.4336242">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3522785664" lat="43.0734282" lon="-89.4338544">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
+  </node>
+  <node id="3522785691" lat="43.0735472" lon="-89.4336229">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3522785718" lat="43.0736393" lon="-89.4346151"/>
+  <node id="3522785721" lat="43.0736571" lon="-89.4340343"/>
+  <node id="3522785765" lat="43.0739035" lon="-89.4355672"/>
+  <node id="3522785809" lat="43.0741105" lon="-89.4363154">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3522785858" lat="43.0742540" lon="-89.4362459">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3522785963" lat="43.0745745" lon="-89.4381139"/>
+  <node id="3522786009" lat="43.0746760" lon="-89.4385474"/>
+  <node id="3522786011" lat="43.0746458" lon="-89.4377679"/>
+  <node id="3522786020" lat="43.0747126" lon="-89.4387144">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3522786021" lat="43.0747526" lon="-89.4388771">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3522786041" lat="43.0748694" lon="-89.4386522">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3522786051" lat="43.0749911" lon="-89.4398592"/>
+  <node id="3607816559" lat="43.0721383" lon="-89.4039540">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3607816560" lat="43.0721428" lon="-89.4042413">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3607816580" lat="43.0731551" lon="-89.4005541">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="3607816581" lat="43.0731577" lon="-89.4006704">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="3607816594" lat="43.0732248" lon="-89.3973202">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3607816603" lat="43.0732772" lon="-89.4007843">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3607816617" lat="43.0733646" lon="-89.4121165"/>
+  <node id="3607816630" lat="43.0734008" lon="-89.4123728"/>
+  <node id="3607816650" lat="43.0735005" lon="-89.4117392"/>
+  <node id="3607816653" lat="43.0736547" lon="-89.4131059"/>
+  <node id="3608309117" lat="43.0678450" lon="-89.4290472"/>
+  <node id="3608309124" lat="43.0679037" lon="-89.4283232"/>
+  <node id="3608309125" lat="43.0679057" lon="-89.4286000">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3608309126" lat="43.0679286" lon="-89.4281724"/>
+  <node id="3608309127" lat="43.0679288" lon="-89.4280650">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3608310571" lat="43.0730786" lon="-89.4272459"/>
+  <node id="3671080511" lat="43.0679768" lon="-89.4265496">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="3671080512" lat="43.0679745" lon="-89.4263519">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="3702210020" lat="43.0753089" lon="-89.4434452"/>
+  <node id="3702210647" lat="43.0751673" lon="-89.4432073"/>
+  <node id="3702210655" lat="43.0751640" lon="-89.4435039">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3702210657" lat="43.0753087" lon="-89.4435495">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3702210663" lat="43.0751641" lon="-89.4439607">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3702210665" lat="43.0753105" lon="-89.4439622">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="3909991329" lat="43.0679113" lon="-89.4236949">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="4055637329" lat="43.0741189" lon="-89.4180418"/>
+  <node id="4055637330" lat="43.0741355" lon="-89.4176961"/>
+  <node id="4055637331" lat="43.0740551" lon="-89.4190461"/>
+  <node id="4173789198" lat="43.0719937" lon="-89.3946886"/>
+  <node id="4214276211" lat="43.0679281" lon="-89.4255931"/>
+  <node id="4214276212" lat="43.0679293" lon="-89.4272517"/>
+  <node id="4214276213" lat="43.0679163" lon="-89.4270997"/>
+  <node id="4214276214" lat="43.0679063" lon="-89.4268956"/>
+  <node id="4214276215" lat="43.0679035" lon="-89.4267942"/>
+  <node id="4214276216" lat="43.0678999" lon="-89.4265495">
+    <tag k="crossing" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="4214276217" lat="43.0678998" lon="-89.4264500"/>
+  <node id="4214276218" lat="43.0678986" lon="-89.4263537">
+    <tag k="crossing" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="4214276219" lat="43.0678973" lon="-89.4259069"/>
+  <node id="4214276220" lat="43.0679010" lon="-89.4258366"/>
+  <node id="4214276221" lat="43.0679059" lon="-89.4257796"/>
+  <node id="4214276222" lat="43.0679463" lon="-89.4258667"/>
+  <node id="4214276223" lat="43.0679573" lon="-89.4260006"/>
+  <node id="4214276224" lat="43.0679646" lon="-89.4260810"/>
+  <node id="4214276225" lat="43.0679707" lon="-89.4261647"/>
+  <node id="4214276226" lat="43.0679732" lon="-89.4262384"/>
+  <node id="4214276227" lat="43.0679756" lon="-89.4266669"/>
+  <node id="4214276228" lat="43.0679707" lon="-89.4268059"/>
+  <node id="4214276229" lat="43.0679597" lon="-89.4269482"/>
+  <node id="4214276230" lat="43.0679463" lon="-89.4271056"/>
+  <node id="4214318058" lat="43.0679169" lon="-89.4239047">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="4247752271" lat="43.0731962" lon="-89.4329873"/>
+  <node id="4316526635" lat="43.0720477" lon="-89.3982540"/>
+  <node id="4542241052" lat="43.0728275" lon="-89.4005477"/>
+  <node id="4542241072" lat="43.0721688" lon="-89.4059036">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="4542241073" lat="43.0723017" lon="-89.4074963"/>
+  <node id="4542241074" lat="43.0729158" lon="-89.4089924">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="4542241075" lat="43.0728611" lon="-89.4091852"/>
+  <node id="4542241079" lat="43.0732028" lon="-89.4089944"/>
+  <node id="4542241080" lat="43.0733673" lon="-89.4087954"/>
+  <node id="4542241083" lat="43.0733404" lon="-89.4058409"/>
+  <node id="4542241085" lat="43.0732982" lon="-89.4022505"/>
+  <node id="4542241695" lat="43.0732725" lon="-89.4004036"/>
+  <node id="4783115796" lat="43.0717567" lon="-89.4009081"/>
+  <node id="5026987438" lat="43.0731977" lon="-89.3959209">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5026987439" lat="43.0731931" lon="-89.3955909">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5371201271" lat="43.0732396" lon="-89.4089947">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="5471665312" lat="43.0721162" lon="-89.4025649">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5471665315" lat="43.0721124" lon="-89.4023241">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5486599468" lat="43.0722185" lon="-89.3936268">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="flashing_lights" v="always"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="5489245736" lat="43.0719927" lon="-89.3945658">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5489245738" lat="43.0720098" lon="-89.3957717">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="5538092178" lat="43.0719929" lon="-89.3942517"/>
+  <node id="5538092182" lat="43.0720600" lon="-89.3939364"/>
+  <node id="5569267190" lat="43.0751613" lon="-89.4418731"/>
+  <node id="5569267202" lat="43.0750896" lon="-89.4404298"/>
+  <node id="5569267205" lat="43.0750301" lon="-89.4400588"/>
+  <node id="6222240951" lat="43.0738699" lon="-89.4202001"/>
+  <node id="6222240952" lat="43.0738043" lon="-89.4214494"/>
+  <node id="6231483219" lat="43.0730081" lon="-89.4282327"/>
+  <node id="6231483220" lat="43.0730154" lon="-89.4301081"/>
+  <node id="6231483221" lat="43.0730004" lon="-89.4296663"/>
+  <node id="6231483222" lat="43.0731487" lon="-89.4316199"/>
+  <node id="6231483224" lat="43.0731755" lon="-89.4318099"/>
+  <node id="6231483225" lat="43.0730988" lon="-89.4311698"/>
+  <node id="6247622751" lat="43.0679646" lon="-89.4285278">
+    <tag k="direction" v="forward"/>
+    <tag k="highway" v="stop"/>
+  </node>
+  <node id="6577823481" lat="43.0734630" lon="-89.4110463"/>
+  <node id="6610355219" lat="43.0722357" lon="-89.3935961">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="dots"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="flashing_lights" v="always"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="6610355230" lat="43.0731772" lon="-89.3941623">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="dots"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="6779510278" lat="43.0743178" lon="-89.4370792"/>
+  <node id="6779510284" lat="43.0742167" lon="-89.4367070"/>
+  <node id="6779562685" lat="43.0741495" lon="-89.4364590"/>
+  <node id="6779562703" lat="43.0744490" lon="-89.4375753"/>
+  <node id="6779562727" lat="43.0745290" lon="-89.4379184"/>
+  <node id="7043484852" lat="43.0751884" lon="-89.4456495"/>
+  <node id="7204924160" lat="43.0748525" lon="-89.4392822"/>
+  <node id="7277446037" lat="43.0749539" lon="-89.4396978"/>
+  <node id="7851866398" lat="43.0687979" lon="-89.4008647">
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:markings" v="no"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="7851866399" lat="43.0687967" lon="-89.4010357">
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:markings" v="no"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="8402901954" lat="43.0731871" lon="-89.3940977"/>
+  <node id="8402901955" lat="43.0732144" lon="-89.3940013"/>
+  <node id="8405199566" lat="43.0731887" lon="-89.3953141"/>
+  <node id="8719805827" lat="43.0731739" lon="-89.3942016">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="9249235909" lat="43.0720713" lon="-89.3997325"/>
+  <node id="9555439577" lat="43.0720628" lon="-89.3991994">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+  </node>
+  <node id="9555439579" lat="43.0720591" lon="-89.3989667">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+  </node>
+  <node id="9603418105" lat="43.0706212" lon="-89.4007694"/>
+  <node id="9605320074" lat="43.0713354" lon="-89.4009181"/>
+  <node id="9900063356" lat="43.0719954" lon="-89.3948042">
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="9900063358" lat="43.0720137" lon="-89.3960282"/>
+  <node id="10288750902" lat="43.0753250" lon="-89.4453854"/>
+  <node id="10288750903" lat="43.0753294" lon="-89.4460305"/>
+  <node id="10288751880" lat="43.0752880" lon="-89.4409224"/>
+  <node id="10288751881" lat="43.0752908" lon="-89.4409759"/>
+  <node id="10288751882" lat="43.0752652" lon="-89.4406723"/>
+  <node id="10288751883" lat="43.0752830" lon="-89.4408489"/>
+  <node id="10288751884" lat="43.0752747" lon="-89.4407574"/>
+  <node id="10288751885" lat="43.0752455" lon="-89.4405150"/>
+  <node id="10288751886" lat="43.0751622" lon="-89.4399756"/>
+  <node id="10288751887" lat="43.0751993" lon="-89.4401957"/>
+  <node id="10288751888" lat="43.0751831" lon="-89.4400937"/>
+  <node id="10288751889" lat="43.0751286" lon="-89.4397941"/>
+  <node id="10288751890" lat="43.0751100" lon="-89.4397002"/>
+  <node id="10288751891" lat="43.0752270" lon="-89.4403795"/>
+  <node id="10288751892" lat="43.0753094" lon="-89.4430952"/>
+  <node id="10288751893" lat="43.0751540" lon="-89.4411807"/>
+  <node id="10288751894" lat="43.0751558" lon="-89.4412738"/>
+  <node id="10288751896" lat="43.0751503" lon="-89.4410716"/>
+  <node id="10288751897" lat="43.0751474" lon="-89.4410076"/>
+  <node id="10288751898" lat="43.0751225" lon="-89.4406894"/>
+  <node id="10288751899" lat="43.0751368" lon="-89.4408513"/>
+  <node id="10288751900" lat="43.0751302" lon="-89.4407656"/>
+  <node id="10288751901" lat="43.0751125" lon="-89.4406036"/>
+  <node id="10288751902" lat="43.0751011" lon="-89.4405167"/>
+  <node id="10288751903" lat="43.0750530" lon="-89.4401901"/>
+  <node id="10288751904" lat="43.0750126" lon="-89.4399644"/>
+  <node id="10288753252" lat="43.0751801" lon="-89.4450740"/>
+  <node id="10288968519" lat="43.0738559" lon="-89.4353957"/>
+  <node id="10666056197" lat="43.0732466" lon="-89.4103540"/>
+  <node id="10943567081" lat="43.0720664" lon="-89.3994252"/>
+  <node id="11223677289" lat="43.0684836" lon="-89.4117087"/>
+  <node id="11650625590" lat="43.0698675" lon="-89.4094376"/>
+  <way id="5531884">
+    <nd ref="2989820122"/>
+    <nd ref="2989820123"/>
+    <nd ref="314505693"/>
+    <nd ref="2989820124"/>
+    <nd ref="2989820125"/>
+    <nd ref="314505694"/>
+    <nd ref="314505695"/>
+    <nd ref="4055637330"/>
+    <nd ref="4055637329"/>
+    <nd ref="314505696"/>
+    <nd ref="4055637331"/>
+    <nd ref="314505697"/>
+    <nd ref="314505698"/>
+    <nd ref="314505699"/>
+    <nd ref="6222240952"/>
+    <nd ref="314505701"/>
+    <nd ref="37936003"/>
+    <nd ref="340003864"/>
+    <nd ref="482804887"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="maxheight:signed" v="no"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="source:maxspeed" v="sign"/>
+  </way>
+  <way id="6655255">
+    <nd ref="1345424871"/>
+    <nd ref="3100613328"/>
+    <nd ref="465144367"/>
+    <nd ref="4542241080"/>
+    <nd ref="2990318266"/>
+    <nd ref="53461758"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="University"/>
+    <tag k="tiger:name_base_1" v="County Highway MS"/>
+    <tag k="tiger:name_type" v="Ave"/>
+  </way>
+  <way id="6655606">
+    <nd ref="11650625590"/>
+    <nd ref="2859304396"/>
+    <nd ref="2859304397"/>
+    <nd ref="2859304398"/>
+    <nd ref="2859304801"/>
+    <nd ref="2859304802"/>
+    <nd ref="2859304400"/>
+    <nd ref="2987035563"/>
+    <nd ref="11223677289"/>
+    <nd ref="2859304399"/>
+    <nd ref="2859304803"/>
+    <nd ref="53462356"/>
+    <nd ref="1426438819"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Monroe Street"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="6674003">
+    <nd ref="1426704657"/>
+    <nd ref="1426704651"/>
+    <nd ref="1426704660"/>
+    <nd ref="3608309117"/>
+    <nd ref="1426704665"/>
+    <nd ref="1426704656"/>
+    <nd ref="2852024758"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Speedway Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="6724188">
+    <nd ref="482804880"/>
+    <nd ref="2771417899"/>
+    <nd ref="340003891"/>
+    <nd ref="340002677"/>
+    <nd ref="314505683"/>
+    <nd ref="314505682"/>
+    <nd ref="6222240951"/>
+    <nd ref="314505681"/>
+    <nd ref="314505680"/>
+    <nd ref="2852024754"/>
+    <nd ref="314505709"/>
+    <nd ref="314505708"/>
+    <nd ref="2989820121"/>
+    <nd ref="314505707"/>
+    <nd ref="314505706"/>
+    <nd ref="2989820120"/>
+    <nd ref="314505710"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="maxheight:signed" v="no"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="name_1" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="6724207">
+    <nd ref="1358610634"/>
+    <nd ref="1358610643"/>
+    <nd ref="1358610633"/>
+    <nd ref="314505712"/>
+    <nd ref="3607816653"/>
+    <nd ref="53461779"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Campus"/>
+    <tag k="tiger:name_type" v="Dr"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="6735918">
+    <nd ref="2859245582"/>
+    <nd ref="3023830058"/>
+    <nd ref="1857864206"/>
+    <nd ref="2994560889"/>
+    <nd ref="53529425"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_left_1" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="tiger:zip_right_1" v="53715"/>
+    <tag k="width:lanes" v="|||2|"/>
+  </way>
+  <way id="6756608">
+    <nd ref="450714559"/>
+    <nd ref="5026987438"/>
+    <nd ref="2859245581"/>
+    <nd ref="3607816594"/>
+    <nd ref="2859245582"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lanes:psv" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="parking:both" v="no"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+    <tag k="width:lanes" v="|||2|"/>
+  </way>
+  <way id="6756613">
+    <nd ref="53472480"/>
+    <nd ref="8402901955"/>
+    <nd ref="53652531"/>
+    <nd ref="8402901954"/>
+    <nd ref="6610355230"/>
+    <nd ref="8719805827"/>
+    <nd ref="53652532"/>
+    <nd ref="3269831634"/>
+    <nd ref="8405199566"/>
+    <nd ref="5026987439"/>
+    <nd ref="450714559"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="parking:left" v="no"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53703"/>
+    <tag k="tiger:zip_right" v="53703"/>
+    <tag k="width:lanes" v="|||2|"/>
+  </way>
+  <way id="28588930">
+    <nd ref="53596827"/>
+    <nd ref="1345416864"/>
+    <nd ref="1859358846"/>
+    <nd ref="53720210"/>
+    <nd ref="1859358892"/>
+    <nd ref="53720208"/>
+    <nd ref="4542241072"/>
+    <nd ref="2995259580"/>
+    <nd ref="53607075"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="30741844">
+    <nd ref="482804887"/>
+    <nd ref="482804881"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="40 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="38239677">
+    <nd ref="1179459686"/>
+    <nd ref="2994560865"/>
+    <nd ref="1179459705"/>
+    <nd ref="4783115796"/>
+    <nd ref="2988209513"/>
+    <nd ref="1179459725"/>
+    <nd ref="1179459704"/>
+    <nd ref="9605320074"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="40117180">
+    <nd ref="482804873"/>
+    <nd ref="482804874"/>
+    <nd ref="482804875"/>
+    <nd ref="482804876"/>
+    <nd ref="482804877"/>
+    <nd ref="482804878"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="40117181">
+    <nd ref="482804879"/>
+    <nd ref="482804873"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="maxweight:signed" v="no"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="40117182">
+    <nd ref="482804878"/>
+    <nd ref="482804880"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="40117183">
+    <nd ref="482804881"/>
+    <nd ref="340003672"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="40117184">
+    <nd ref="482804882"/>
+    <nd ref="482804886"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="maxweight:signed" v="no"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="40117185">
+    <nd ref="482804886"/>
+    <nd ref="6231483221"/>
+    <nd ref="340003520"/>
+    <nd ref="6231483220"/>
+    <nd ref="340003521"/>
+    <nd ref="6231483225"/>
+    <nd ref="6231483222"/>
+    <nd ref="6231483224"/>
+    <nd ref="340003522"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="102199583">
+    <nd ref="1179459754"/>
+    <nd ref="2986909953"/>
+    <nd ref="2989979554"/>
+    <nd ref="1179459711"/>
+    <nd ref="9603418105"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxheight:signed" v="no"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="119876224">
+    <nd ref="53596818"/>
+    <nd ref="2990318233"/>
+    <nd ref="1345420581"/>
+    <nd ref="1345420587"/>
+    <nd ref="1345424870"/>
+    <nd ref="1857601633"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="119876225">
+    <nd ref="1345420597"/>
+    <nd ref="2989816820"/>
+    <nd ref="1345420571"/>
+    <nd ref="1345420590"/>
+    <nd ref="2990318172"/>
+    <nd ref="53523650"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="119876226">
+    <nd ref="53461758"/>
+    <nd ref="1424064622"/>
+    <nd ref="5371201271"/>
+    <nd ref="4542241079"/>
+    <nd ref="4542241074"/>
+    <nd ref="2990318242"/>
+    <nd ref="53596818"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Randall"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="Ave"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_right" v="53715"/>
+    <tag k="turn:lanes:backward" v="left|left"/>
+  </way>
+  <way id="120306172">
+    <nd ref="53461796"/>
+    <nd ref="2987141996"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="120306174">
+    <nd ref="340003797"/>
+    <nd ref="482804891"/>
+    <nd ref="482804892"/>
+    <nd ref="482804893"/>
+    <nd ref="482804879"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="120306176">
+    <nd ref="482804884"/>
+    <nd ref="1850579217"/>
+    <nd ref="3522785721"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+  </way>
+  <way id="129252235">
+    <nd ref="2859304394"/>
+    <nd ref="2859304393"/>
+    <nd ref="2859310159"/>
+    <nd ref="3026444679"/>
+    <nd ref="1180005838"/>
+    <tag k="check_date" v="2024-03-20"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
+    <tag k="cycleway:left:width" v="4 ft"/>
+    <tag k="cycleway:right:width" v="4 ft"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Randall"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="Ave"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="178374286">
+    <nd ref="6577823481"/>
+    <nd ref="1887371652"/>
+    <nd ref="314505834"/>
+    <nd ref="3607816650"/>
+    <nd ref="314505790"/>
+    <nd ref="314505791"/>
+    <nd ref="2987142014"/>
+    <nd ref="314505792"/>
+    <nd ref="2987142027"/>
+    <nd ref="1857601533"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="199261161">
+    <nd ref="1345424868"/>
+    <nd ref="53596821"/>
+    <nd ref="53596824"/>
+    <nd ref="4542241073"/>
+    <nd ref="53596826"/>
+    <nd ref="1345424866"/>
+    <nd ref="3192311292"/>
+    <nd ref="1533633321"/>
+    <nd ref="53596827"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="220136014">
+    <nd ref="340003522"/>
+    <nd ref="340003523"/>
+    <nd ref="3522785691"/>
+    <nd ref="482804884"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="307231691">
+    <nd ref="482804883"/>
+    <nd ref="3522785654"/>
+    <nd ref="4247752271"/>
+    <nd ref="340003797"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+    <tag k="turn:lanes" v="none|none|slight_right"/>
+  </way>
+  <way id="307231692">
+    <nd ref="53461779"/>
+    <nd ref="452866506"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Campus"/>
+    <tag k="tiger:name_type" v="Dr"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="316730791">
+    <nd ref="4173789198"/>
+    <nd ref="5489245736"/>
+    <nd ref="53720190"/>
+    <nd ref="5538092178"/>
+    <nd ref="53720188"/>
+    <nd ref="53720186"/>
+    <nd ref="5538092182"/>
+    <nd ref="53720184"/>
+    <nd ref="5486599468"/>
+    <nd ref="6610355219"/>
+    <nd ref="3241106091"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="parking:both" v="no"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+    <tag k="turn:lanes" v="none|none|none|right"/>
+  </way>
+  <way id="316748357">
+    <nd ref="450714993"/>
+    <nd ref="3607816603"/>
+    <nd ref="1857707031"/>
+    <nd ref="53399464"/>
+    <nd ref="1857707037"/>
+    <nd ref="4542241085"/>
+    <nd ref="1887360594"/>
+    <nd ref="53616189"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:both" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_left_1" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="tiger:zip_right_1" v="53715"/>
+  </way>
+  <way id="316748358">
+    <nd ref="53456047"/>
+    <nd ref="53461762"/>
+    <nd ref="1857601569"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated"/>
+    <tag k="bus:lanes" v="yes|yes|yes|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="University"/>
+    <tag k="tiger:name_base_1" v="County Highway MS"/>
+    <tag k="tiger:name_type" v="Ave"/>
+    <tag k="turn:lanes" v="none|none|none|right"/>
+  </way>
+  <way id="316748360">
+    <nd ref="2987035532"/>
+    <nd ref="3035654118"/>
+    <nd ref="2987035533"/>
+    <nd ref="2987035535"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Regent"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53705"/>
+    <tag k="tiger:zip_right" v="53705"/>
+  </way>
+  <way id="318902671">
+    <nd ref="10288968519"/>
+    <nd ref="2771378236"/>
+    <nd ref="3522785718"/>
+    <nd ref="3522785664"/>
+    <nd ref="482804883"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="318902672">
+    <nd ref="340003539"/>
+    <nd ref="3522785858"/>
+    <nd ref="340003333"/>
+    <nd ref="3522786011"/>
+    <nd ref="3522786041"/>
+    <nd ref="482804871"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="323377840">
+    <nd ref="10288753252"/>
+    <nd ref="434793123"/>
+    <nd ref="3702210663"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+    <tag k="turn:lanes" v="left|||"/>
+  </way>
+  <way id="323912695">
+    <nd ref="1345420597"/>
+    <nd ref="1155602880"/>
+    <nd ref="3026444704"/>
+    <nd ref="1180005838"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Randall"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="Ave"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="344411299">
+    <nd ref="2987035535"/>
+    <nd ref="2987035534"/>
+    <nd ref="2987035531"/>
+    <nd ref="2987035528"/>
+    <nd ref="2987035527"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Regent"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53705"/>
+    <tag k="tiger:zip_right" v="53705"/>
+  </way>
+  <way id="344612879">
+    <nd ref="1426438819"/>
+    <nd ref="1180000915"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Monroe Street"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Monroe"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="355176315">
+    <nd ref="53596815"/>
+    <nd ref="10666056197"/>
+    <nd ref="53596817"/>
+    <nd ref="1887371660"/>
+    <nd ref="53456049"/>
+    <nd ref="4542241075"/>
+    <nd ref="2990318241"/>
+    <nd ref="53596818"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+    <tag k="turn:lanes" v="none|none|none|right"/>
+  </way>
+  <way id="358965966">
+    <nd ref="1180000915"/>
+    <nd ref="3035654127"/>
+    <nd ref="2987035532"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Monroe Street"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Monroe"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="366244825">
+    <nd ref="452866506"/>
+    <nd ref="1857601784"/>
+    <nd ref="53596803"/>
+    <nd ref="53596804"/>
+    <nd ref="3607816630"/>
+    <nd ref="3607816617"/>
+    <nd ref="53461796"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Campus"/>
+    <tag k="tiger:name_type" v="Dr"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="391308110">
+    <nd ref="482804871"/>
+    <nd ref="1345151770"/>
+    <nd ref="10288751890"/>
+    <nd ref="10288751889"/>
+    <nd ref="10288751886"/>
+    <nd ref="10288751888"/>
+    <nd ref="10288751887"/>
+    <nd ref="340003334"/>
+    <nd ref="10288751891"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="421671621">
+    <nd ref="2848204391"/>
+    <nd ref="3608309126"/>
+    <nd ref="3608309127"/>
+    <nd ref="4214276212"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sidewalk:both" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="421671622">
+    <nd ref="4214276212"/>
+    <nd ref="4214276213"/>
+    <nd ref="4214276214"/>
+    <nd ref="4214276215"/>
+    <nd ref="4214276216"/>
+    <nd ref="4214276217"/>
+    <nd ref="4214276218"/>
+    <nd ref="4214276219"/>
+    <nd ref="4214276220"/>
+    <nd ref="4214276221"/>
+    <nd ref="4214276211"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="421671623">
+    <nd ref="4214276211"/>
+    <nd ref="4214276222"/>
+    <nd ref="4214276223"/>
+    <nd ref="4214276224"/>
+    <nd ref="4214276225"/>
+    <nd ref="4214276226"/>
+    <nd ref="3671080512"/>
+    <nd ref="1345869306"/>
+    <nd ref="3671080511"/>
+    <nd ref="4214276227"/>
+    <nd ref="4214276228"/>
+    <nd ref="4214276229"/>
+    <nd ref="4214276230"/>
+    <nd ref="4214276212"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="453855891">
+    <nd ref="53652463"/>
+    <nd ref="53652465"/>
+    <nd ref="4542241083"/>
+    <nd ref="1887360611"/>
+    <nd ref="53461749"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_left_1" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="tiger:zip_right_1" v="53715"/>
+  </way>
+  <way id="453855892">
+    <nd ref="340003672"/>
+    <nd ref="340003547"/>
+    <nd ref="3608310571"/>
+    <nd ref="340003518"/>
+    <nd ref="6231483219"/>
+    <nd ref="482804882"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="loc_name" v="University Avenue"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="453867836">
+    <nd ref="53668996"/>
+    <nd ref="3607816559"/>
+    <nd ref="1533634534"/>
+    <nd ref="5471665312"/>
+    <nd ref="53616188"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="453867846">
+    <nd ref="53582205"/>
+    <nd ref="3100743777"/>
+    <nd ref="9900063358"/>
+    <nd ref="3358645689"/>
+    <nd ref="2859245574"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="parking:both" v="no"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="458185154">
+    <nd ref="450714993"/>
+    <nd ref="1424064639"/>
+    <nd ref="3607816581"/>
+    <nd ref="1179459749"/>
+    <nd ref="2994560877"/>
+    <nd ref="1179459750"/>
+    <nd ref="1179459741"/>
+    <nd ref="2994560867"/>
+    <nd ref="1179459686"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="458185159">
+    <nd ref="1179459693"/>
+    <nd ref="2994560866"/>
+    <nd ref="1179459691"/>
+    <nd ref="2994560873"/>
+    <nd ref="1179459722"/>
+    <nd ref="4542241052"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="458185161">
+    <nd ref="4542241052"/>
+    <nd ref="1179459723"/>
+    <nd ref="3607816580"/>
+    <nd ref="1424064626"/>
+    <nd ref="450714993"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="turn:lanes" v="left|through"/>
+  </way>
+  <way id="458185177">
+    <nd ref="53596818"/>
+    <nd ref="2990318236"/>
+    <nd ref="1345424868"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="458185181">
+    <nd ref="2987141996"/>
+    <nd ref="53596810"/>
+    <nd ref="53596812"/>
+    <nd ref="53596815"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="458185184">
+    <nd ref="314505710"/>
+    <nd ref="314505711"/>
+    <nd ref="1358610641"/>
+    <nd ref="1358610634"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Campus"/>
+    <tag k="tiger:name_type" v="Dr"/>
+    <tag k="tiger:reviewed" v="no"/>
+  </way>
+  <way id="458185190">
+    <nd ref="53461764"/>
+    <nd ref="53461767"/>
+    <nd ref="1887371649"/>
+    <nd ref="6577823481"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bus:lanes" v="yes|yes|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes" v="none|none|right"/>
+  </way>
+  <way id="458185194">
+    <nd ref="1857601569"/>
+    <nd ref="53589716"/>
+    <nd ref="53461764"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bus:lanes" v="yes|yes|yes|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="University"/>
+    <tag k="tiger:name_base_1" v="County Highway MS"/>
+    <tag k="tiger:name_type" v="Ave"/>
+    <tag k="turn:lanes" v="none|none|none|right"/>
+  </way>
+  <way id="458185197">
+    <nd ref="53461758"/>
+    <nd ref="53456047"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="University"/>
+    <tag k="tiger:name_base_1" v="County Highway MS"/>
+    <tag k="tiger:name_type" v="Ave"/>
+  </way>
+  <way id="458185201">
+    <nd ref="53529425"/>
+    <nd ref="1857746110"/>
+    <nd ref="1857864177"/>
+    <nd ref="4542241695"/>
+    <nd ref="1180120715"/>
+    <nd ref="450714993"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:both" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_left_1" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="tiger:zip_right_1" v="53715"/>
+  </way>
+  <way id="494902067">
+    <nd ref="3702210663"/>
+    <nd ref="482804869"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+    <tag k="turn:lanes" v="left|through|through|through;right"/>
+  </way>
+  <way id="498395928">
+    <nd ref="2859304394"/>
+    <nd ref="1180005843"/>
+    <nd ref="3229347470"/>
+    <nd ref="3229347469"/>
+    <nd ref="3229347468"/>
+    <nd ref="2859304395"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Monroe Street"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Monroe"/>
+    <tag k="tiger:name_type" v="St"/>
+  </way>
+  <way id="628212012">
+    <nd ref="1857601533"/>
+    <nd ref="2989820115"/>
+    <nd ref="314505691"/>
+    <nd ref="2989820118"/>
+    <nd ref="2989820119"/>
+    <nd ref="314505692"/>
+    <nd ref="2989820122"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="Campus Drive"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="667269202">
+    <nd ref="2848204379"/>
+    <nd ref="1426704668"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Speedway Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="667269207">
+    <nd ref="2852024758"/>
+    <nd ref="3608309125"/>
+    <nd ref="1426704659"/>
+    <nd ref="3608309124"/>
+    <nd ref="2848204391"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="667272284">
+    <nd ref="2848204391"/>
+    <nd ref="2852024760"/>
+    <nd ref="6247622751"/>
+    <nd ref="2852024757"/>
+    <nd ref="2848493184"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="667272627">
+    <nd ref="1426704668"/>
+    <nd ref="1426704673"/>
+    <nd ref="1426704648"/>
+    <nd ref="1426704657"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Speedway Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="700376873">
+    <nd ref="53607075"/>
+    <nd ref="2995259579"/>
+    <nd ref="3607816560"/>
+    <nd ref="53668996"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="700376938">
+    <nd ref="3522785721"/>
+    <nd ref="340003524"/>
+    <nd ref="340003539"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="700405175">
+    <nd ref="1179459686"/>
+    <nd ref="1179459693"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="700405176">
+    <nd ref="2859245574"/>
+    <nd ref="5489245738"/>
+    <nd ref="1186513235"/>
+    <nd ref="9900063356"/>
+    <nd ref="4173789198"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="parking:both" v="no"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="700405246">
+    <nd ref="1345424861"/>
+    <nd ref="2990318210"/>
+    <nd ref="1345420592"/>
+    <nd ref="53450891"/>
+    <nd ref="2990318231"/>
+    <nd ref="53596818"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="700405290">
+    <nd ref="1179459693"/>
+    <nd ref="1180120701"/>
+    <nd ref="9249235909"/>
+    <nd ref="10943567081"/>
+    <nd ref="9555439577"/>
+    <nd ref="2726215346"/>
+    <nd ref="9555439579"/>
+    <nd ref="53720195"/>
+    <nd ref="4316526635"/>
+    <nd ref="3100743773"/>
+    <nd ref="53582205"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="700445179">
+    <nd ref="2859302267"/>
+    <nd ref="3307005685"/>
+    <nd ref="1180120575"/>
+    <nd ref="2771341213"/>
+    <nd ref="1180120618"/>
+    <nd ref="1179459672"/>
+    <nd ref="7851866398"/>
+    <nd ref="1179459754"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="722743943">
+    <nd ref="53652447"/>
+    <nd ref="10288751894"/>
+    <nd ref="10288751893"/>
+    <nd ref="10288751896"/>
+    <nd ref="10288751897"/>
+    <nd ref="482804889"/>
+    <nd ref="10288751899"/>
+    <nd ref="10288751900"/>
+    <nd ref="10288751898"/>
+    <nd ref="10288751901"/>
+    <nd ref="10288751902"/>
+    <nd ref="5569267202"/>
+    <nd ref="482804890"/>
+    <nd ref="10288751903"/>
+    <nd ref="5569267205"/>
+    <nd ref="10288751904"/>
+    <nd ref="3522786051"/>
+    <nd ref="7277446037"/>
+    <nd ref="1345151763"/>
+    <nd ref="7204924160"/>
+    <nd ref="3522786021"/>
+    <nd ref="482804872"/>
+    <nd ref="3522786020"/>
+    <nd ref="3522786009"/>
+    <nd ref="3522785963"/>
+    <nd ref="6779562727"/>
+    <nd ref="6779562703"/>
+    <nd ref="2352893887"/>
+    <nd ref="6779510278"/>
+    <nd ref="6779510284"/>
+    <nd ref="6779562685"/>
+    <nd ref="3522785809"/>
+    <nd ref="482804885"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="722743945">
+    <nd ref="2857173958"/>
+    <nd ref="2857173957"/>
+    <nd ref="2857173956"/>
+    <nd ref="10288751892"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="722743946">
+    <nd ref="2857173959"/>
+    <nd ref="2857173958"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="turn:lanes" v="left|through|through|through"/>
+  </way>
+  <way id="765603485">
+    <nd ref="1349224292"/>
+    <nd ref="3702210665"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="765603487">
+    <nd ref="482804869"/>
+    <nd ref="3702210655"/>
+    <nd ref="3702210647"/>
+    <nd ref="482804888"/>
+    <nd ref="5569267190"/>
+    <nd ref="53652447"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="848706425">
+    <nd ref="1179459701"/>
+    <nd ref="1859409794"/>
+    <nd ref="1179459736"/>
+    <nd ref="450714568"/>
+    <nd ref="2986909954"/>
+    <nd ref="1179459707"/>
+    <nd ref="1179459752"/>
+    <nd ref="7851866399"/>
+    <nd ref="1179459703"/>
+    <nd ref="1179459709"/>
+    <nd ref="2771341215"/>
+    <nd ref="3307005686"/>
+    <nd ref="1179459773"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="848706427">
+    <nd ref="1179459724"/>
+    <nd ref="2995259119"/>
+    <nd ref="1179459738"/>
+    <nd ref="1179459747"/>
+    <nd ref="2995259571"/>
+    <nd ref="1179459693"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="889979862">
+    <nd ref="53461749"/>
+    <nd ref="1887360609"/>
+    <nd ref="1859358832"/>
+    <nd ref="1859358884"/>
+    <nd ref="3100613324"/>
+    <nd ref="3192311297"/>
+    <nd ref="1345424871"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="University"/>
+    <tag k="tiger:name_base_1" v="County Highway MS"/>
+    <tag k="tiger:name_type" v="Ave"/>
+  </way>
+  <way id="889997438">
+    <nd ref="53616189"/>
+    <nd ref="53652462"/>
+    <nd ref="1887360596"/>
+    <nd ref="53652463"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="bicycle:lanes" v="yes|yes|yes|designated|yes"/>
+    <tag k="bus:lanes" v="yes|yes|yes|no|designated"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="motor_vehicle:lanes" v="yes|yes|yes|no|yes"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53706"/>
+    <tag k="tiger:zip_left_1" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+    <tag k="tiger:zip_right_1" v="53715"/>
+  </way>
+  <way id="925301387">
+    <nd ref="53523650"/>
+    <nd ref="1345424861"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="925301389">
+    <nd ref="1857601633"/>
+    <nd ref="2990318187"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="925301390">
+    <nd ref="2990318187"/>
+    <nd ref="2990318175"/>
+    <nd ref="1345420584"/>
+    <nd ref="1345420569"/>
+    <nd ref="2989816821"/>
+    <nd ref="1345420597"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="North Randall Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="929923920">
+    <nd ref="1426704655"/>
+    <nd ref="1426704674"/>
+    <nd ref="2848204379"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="929923921">
+    <nd ref="2848493184"/>
+    <nd ref="1426704655"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1043462939">
+    <nd ref="9603418105"/>
+    <nd ref="2995259110"/>
+    <nd ref="1179459724"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="1043707281">
+    <nd ref="9605320074"/>
+    <nd ref="1859409784"/>
+    <nd ref="1179459701"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:width" v="5 ft"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="North Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Park"/>
+    <tag k="tiger:name_direction_prefix" v="N"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53706"/>
+  </way>
+  <way id="1125100217">
+    <nd ref="10288751891"/>
+    <nd ref="10288751885"/>
+    <nd ref="10288751882"/>
+    <nd ref="10288751884"/>
+    <nd ref="10288751883"/>
+    <nd ref="10288751880"/>
+    <nd ref="10288751881"/>
+    <nd ref="340003335"/>
+    <nd ref="1349224244"/>
+    <nd ref="2857173959"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1125100218">
+    <nd ref="10288751892"/>
+    <nd ref="3702210020"/>
+    <nd ref="3702210657"/>
+    <nd ref="1349224292"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="turn:lanes" v="left|through|through|through;right"/>
+  </way>
+  <way id="1125100220">
+    <nd ref="3301801134"/>
+    <nd ref="10288753252"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="1125100641">
+    <nd ref="3702210665"/>
+    <nd ref="3301805343"/>
+    <nd ref="10288750902"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1125100642">
+    <nd ref="10288750902"/>
+    <nd ref="3301809578"/>
+    <nd ref="10288750903"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1125100646">
+    <nd ref="446014009"/>
+    <nd ref="7043484852"/>
+    <nd ref="3301801134"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="1125127590">
+    <nd ref="482804885"/>
+    <nd ref="3522785765"/>
+    <nd ref="10288968519"/>
+    <tag k="alt_name" v="County Highway MS"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="35 mph"/>
+    <tag k="name" v="University Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="CTH MS"/>
+    <tag k="sidewalk:left" v="no"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="County Highway MS"/>
+    <tag k="tiger:name_base_1" v="University"/>
+    <tag k="tiger:name_type_1" v="Ave"/>
+  </way>
+  <way id="1184271013">
+    <nd ref="53616188"/>
+    <nd ref="5471665315"/>
+    <nd ref="2995259575"/>
+    <nd ref="1179459686"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="West Johnson Street"/>
+    <tag k="name:etymology:wikidata" v="Q182543"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="tiger:cfcc" v="A41"/>
+    <tag k="tiger:county" v="Dane, WI"/>
+    <tag k="tiger:name_base" v="Johnson"/>
+    <tag k="tiger:name_direction_prefix" v="W"/>
+    <tag k="tiger:name_type" v="St"/>
+    <tag k="tiger:reviewed" v="no"/>
+    <tag k="tiger:zip_left" v="53715"/>
+    <tag k="tiger:zip_right" v="53715"/>
+  </way>
+  <way id="1253422021">
+    <nd ref="2859304395"/>
+    <nd ref="3229347467"/>
+    <nd ref="1426438839"/>
+    <nd ref="11650625590"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Monroe Street"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1370665312">
+    <nd ref="2298789012"/>
+    <nd ref="53701513"/>
+    <nd ref="53701515"/>
+    <nd ref="53701517"/>
+    <nd ref="3393344036"/>
+    <nd ref="53610888"/>
+    <nd ref="3393344037"/>
+    <nd ref="2848493191"/>
+    <nd ref="2848493190"/>
+    <nd ref="3359574810"/>
+    <nd ref="3359573121"/>
+    <nd ref="3909991329"/>
+    <nd ref="53498866"/>
+    <nd ref="4214318058"/>
+    <nd ref="2848493194"/>
+    <nd ref="4214276211"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="sidewalk:both" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</osm>

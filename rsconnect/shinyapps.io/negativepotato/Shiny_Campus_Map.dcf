@@ -5,7 +5,7 @@ account: negativepotato
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14694177
-bundleId: 10239441
+bundleId: 10240211
 url: https://negativepotato.shinyapps.io/Shiny_Campus_Map/
 version: 1
 asMultiple: FALSE
