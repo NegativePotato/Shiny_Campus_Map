@@ -6,6 +6,10 @@ library(RColorBrewer)
 library(scales)
 library(shiny)
 library(bslib)
+library(shinyjs)
+library(sf)
+require(DT)
+# library(plotly)
 
 # By locaion
 university <- "UW-Madison"
@@ -104,13 +108,27 @@ print("Combine Building Files")
 uw_buildings_for_plot.sf <- 
   dplyr::bind_rows(
     uw_buildings.sf$osm_polygons %>% 
-      select(name, geometry, amenity, building),
+      select(name, amenity, building, geometry),
     uw_buildings.sf$osm_multipolygons %>% 
-      select(name, geometry, amenity, building)
+      select(name, amenity, building, geometry)
   ) %>% 
   filter(!(name %in% c("Lakeshore Nature Preserve"))) %>% 
   mutate(amenity = ifelse(is.na(amenity), "none", amenity)) %>% 
   filter(amenity != "parking" & !is.na(building))
+# uw_buildings_polygons_for_plot.sf <- 
+#   uw_buildings.sf$osm_polygons %>% 
+#   select(name, amenity, building, geometry) %>%
+#   filter(!(name %in% c("Lakeshore Nature Preserve"))) %>% 
+#   mutate(amenity = ifelse(is.na(amenity), "none", amenity)) %>% 
+#   filter(amenity != "parking" & !is.na(building))
+# 
+# 
+# uw_buildings_for_plot.sf <- 
+#   uw_buildings.sf$osm_multipolygons %>% 
+#   select(name, amenity, building, geometry) %>%
+#   filter(!(name %in% c("Lakeshore Nature Preserve"))) %>% 
+#   mutate(amenity = ifelse(is.na(amenity), "none", amenity)) %>% 
+#   filter(amenity != "parking" & !is.na(building))
 
 
 # Load post-doc data
@@ -140,8 +158,8 @@ uwmadison.plot <- ggplot() +
           size = 0.2) + 
   geom_sf_text(data = uw_buildings_for_plot.sf,
                aes(label = as.character(n_postdocs)), 
-               size = 2, 
-               check_overlap = TRUE)
+               size = 4, fontface = "bold",
+               check_overlap = FALSE)
 
 print("Plot Roads")
 uwmadison_with_roads.plot <- uwmadison.plot + 
@@ -186,6 +204,19 @@ print("Setup - Done")
 
 
 ui <- page_sidebar(
+  useShinyjs(),
+  tags$script(HTML("
+    $(document).on('wheel', '#plot-container', function(e) {
+      e.preventDefault();
+      var direction = (e.originalEvent.deltaY < 0) ? 'in' : 'out';
+      Shiny.setInputValue('zoom_direction', {
+        direction: direction,
+        x: e.offsetX,
+        y: e.offsetY,
+        nonce: Math.random() // ensure value changes every time
+      }, {priority: 'event'});
+    });
+  ")),
   sidebar = sidebar(
     width = 400,
     # North boundary
@@ -231,7 +262,7 @@ ui <- page_sidebar(
     textInput(
       inputId = "plot_title",
       label = "Plot title:",
-      value = "Map of Post-Docs on Campus",
+      value = "Map of UW-Madison Postdoc Locations (February 2025)",
       placeholder = "Enter title here"
     ),
     hr(style = "border-top: 1px solid #000000;"),
@@ -247,7 +278,7 @@ ui <- page_sidebar(
     # ), 
     textInput(
         inputId = "file_name_plot", 
-        value = "Map_of_Post-Docs_on_Campus.png", 
+        value = "UW-Madison_Postdocs_Census_Data_Feb_2025.png", 
         label = "File name"),
     numericInput(
         inputId = 'plot_height',
@@ -276,11 +307,28 @@ ui <- page_sidebar(
     #     label = 'Update Map'))
     #     )
   ),
-  # Output: Show scatterplot
-  card(plotOutput(outputId = "map_ggplot"), 
-       # htmlOutput(outputId = "text_1"),
-       min_height = "400px"), 
-  card(dataTableOutput(outputId = "n_postdocs.df"))
+  navset_card_underline(
+    nav_panel("Instructions", 
+              card(card_header("Instructions"),
+                   htmlOutput(outputId = "text_1"), 
+                   min_height = "150px")),
+    nav_panel("Map", 
+      card(card_header("Post Doc Campus Map"),
+             # plotlyOutput("map_ggplot"),
+             div(id = "plot-container",        
+                 plotOutput(outputId = "map_ggplot",
+                            brush = brushOpts(id = "map_zoom_brush"),
+                            dblclick = "map_dblclick", 
+                            hover = hoverOpts("map_hover", delay = 0, delayType = "throttle"))),
+             min_height = "500px"), 
+      card(card_header("Post-Doc Census Data"),
+           DT::DTOutput(outputId = "n_postdocs.df"))),
+    nav_panel("Dataset Fullscreen", 
+              card(card_header("Post-Doc Census Data"),
+                   DT::DTOutput(outputId = "n_postdocs.df.zoom")),
+              card(downloadButton(outputId = "download_census_data", 
+                                  label = "Download Census Data (csv)")))
+  )
 )
 
 # Define server
@@ -320,30 +368,86 @@ server <- function(input, output, session) {
     return(map_to_save.plot)    
   }
   
-  observeEvent(input$reset_window, {
-    updateNumericInput(session = session, inputId = "y_north", 
-                       value = uwm_bb_orig_y_max)
-    updateNumericInput(session = session, inputId = "x_west", 
-                       value = uwm_bb_orig_x_min)
-    updateNumericInput(session = session, inputId = "x_east", 
-                       value = uwm_bb_orig_x_max)
-    updateNumericInput(session = session, inputId = "y_south", 
-                       value = uwm_bb_orig_y_min)
-  })
-  
-  
   output$map_ggplot <- renderPlot({
     # print(sciexpo_study.react())
     # print(sciexpo_study_summary.react())
     plot_map()
+  })
+    
+  observeEvent(input$zoom_direction, {
+    req(input$map_hover)
+    
+    # Zoom factor
+    mouse <- input$map_hover
+    zoom <- input$zoom_direction
+    factor <- if (zoom$direction == "in") 1.2 else 0.8
+    
+    # # Compute new ranges
+    # x_mid <- mean(c(input$x_west, input$x_east))
+    # y_mid <- mean(c(input$y_south, input$y_north))
+    
+    # Zoom toward mouse location
+    x_focus <- mouse$x
+    y_focus <- mouse$y
+    
+    # x_range <- diff(c(input$x_west, input$x_east)) * factor / 2
+    # y_range <- diff(c(input$y_south, input$y_north)) * factor / 2
+    
+    update_window_limits(y_north = min(y_focus - (y_focus - input$y_north) * factor,
+                                       uwm_bb_orig_y_max), 
+                         x_west = max(x_focus - (x_focus - input$x_west) * factor, 
+                                      uwm_bb_orig_x_min), 
+                         x_east = min(x_focus - (x_focus - input$x_east) * factor,
+                                      uwm_bb_orig_x_max), 
+                         y_south = max(y_focus - (y_focus - input$y_south) * factor,
+                                       uwm_bb_orig_y_min))
+  })
+  
+  
+  update_window_limits <- function(y_north, x_west, x_east, y_south) {
+    updateNumericInput(session = session, inputId = "y_north", 
+                       value = y_north)
+    updateNumericInput(session = session, inputId = "x_west", 
+                       value = x_west)
+    updateNumericInput(session = session, inputId = "x_east", 
+                       value = x_east)
+    updateNumericInput(session = session, inputId = "y_south", 
+                       value = y_south)
+  }
+  
+  observeEvent(input$reset_window, {
+    update_window_limits(y_north = uwm_bb_orig_y_max, 
+                         x_west = uwm_bb_orig_x_min, 
+                         x_east = uwm_bb_orig_x_max, 
+                         y_south = uwm_bb_orig_y_min)
+  })
+  
+  observeEvent(input$map_zoom_brush, {
+    brush <- input$map_zoom_brush
+    update_window_limits(y_north = brush$ymax, 
+                         x_west = brush$xmin, 
+                         x_east = brush$xmax, 
+                         y_south = brush$ymin)
+    session$resetBrush("map_zoom_brush")
+  })
+  
+  observeEvent(input$map_dblclick, {
+    update_window_limits(y_north = uwm_bb_orig_y_max, 
+                         x_west = uwm_bb_orig_x_min, 
+                         x_east = uwm_bb_orig_x_max, 
+                         y_south = uwm_bb_orig_y_min)
   })
   
   output$n_postdocs.df <- renderDataTable({
     n_postdocs.df
   })
   
+  output$n_postdocs.df.zoom <- renderDataTable({
+    n_postdocs.df
+  })
+  
   output$download_ggplot <- downloadHandler(
-    filename = function(){sprintf("%s.png", input$file_name_plot)},
+    filename = function(){sprintf(input$file_name_plot)},
     content = function(file){
       ggsave(file, 
              plot = last_plot(), 
@@ -352,8 +456,19 @@ server <- function(input, output, session) {
              dpi = 300)
   })
   
+  output$download_census_data <- downloadHandler(
+    filename = function(){sprintf("%s.png", input$file_name_plot)},
+    content = function(file){
+      write.csv(n_postdocs.df, file)
+  })
+  
   output$text_1 <- renderUI({
-    HTML(paste("There are coucou"))
+    HTML(paste0(
+      "Use side panel to set the title of the map, download the current view of the plot (enter the file name you want), adjust the height of the picture if the resoluaiton is too low<br>",
+      "To adjust the view of the map, you can either manually enter valyes for the limits of the map in the sidebar, or ",
+      "drag on an area of the map to zoom on it, or ",
+      "zoom to Scroll (if zoom stops working, move mouse away from plot and back over it).", 
+      "Note that you can't zoom out more than the default values."))
   })
 }
 
